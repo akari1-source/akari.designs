@@ -1,0 +1,161 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "products": "Products",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "common": {
+      "inquire": "Inquire",
+      "requestQuote": "Request Quote",
+      "from": "From",
+      "price": "Price"
+    },
+    "hero": {
+      "title": "Precision-Engineered Custom Manufacturing",
+      "subtitle": "Berlin-based design studio specializing in bespoke products and small-batch production",
+      "cta1": "Explore Our Work",
+      "cta2": "Collaborate"
+    },
+    "featuredProducts": {
+      "title": "Featured Products",
+      "subtitle": "Precision-engineered solutions for discerning clients"
+    },
+    "capabilities": {
+      "title": "Our Capabilities",
+      "subtitle": "Complete design and manufacturing for premium brands",
+      "sticker": "Sticker Plotting",
+      "3d": "3D Printing",
+      "design": "Design Services",
+      "customization": "Custom Fabrication"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Complete design and manufacturing solutions",
+      "design_title": "Design Services",
+      "design_desc": "Bespoke design consultation and custom solutions",
+      "sticker_title": "Sticker Plotting",
+      "sticker_desc": "Professional sticker plotting for decals and branding",
+      "3d_title": "3D Printing",
+      "3d_desc": "Rapid prototyping and production 3D printing"
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "Precision-engineered solutions for custom manufacturing and bespoke creations",
+      "allProducts": "All Products",
+      "stickerPlotting": "Sticker Plotting",
+      "3dPrinting": "3D Printing",
+      "castProducts": "Cast Products",
+      "customGifts": "Custom Gifts"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Featured projects and case studies"
+    },
+    "about": {
+      "title": "About AKARI",
+      "subtitle": "Premium design and manufacturing excellence",
+      "mission": "Our Mission",
+      "missionText": "To deliver precision-engineered custom solutions that exceed expectations",
+      "values": "Our Values",
+      "expertise": "Our Expertise",
+      "team": "Our Team"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch for custom quotes and inquiries",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company",
+      "service": "Service Interest",
+      "message": "Your Message",
+      "send": "Send Inquiry",
+      "faq": "Frequently Asked Questions"
+    },
+    "footer": "Berlin-based design and manufacturing studio. Premium custom products and small-batch production."
+  },
+  "de": {
+    "nav": {
+      "home": "Startseite",
+      "products": "Produkte",
+      "services": "Dienstleistungen",
+      "portfolio": "Portfolio",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "common": {
+      "inquire": "Anfragen",
+      "requestQuote": "Angebot anfordern",
+      "from": "Ab",
+      "price": "Preis"
+    },
+    "hero": {
+      "title": "Präzisions-Engineering für maßgeschneiderte Fertigung",
+      "subtitle": "Berliner Design-Studio spezialisiert auf individuelle Produkte und kleinchargige Produktion",
+      "cta1": "Unsere Arbeiten erkunden",
+      "cta2": "Zusammenarbeiten"
+    },
+    "featuredProducts": {
+      "title": "Ausgewählte Produkte",
+      "subtitle": "Präzisions-engineerte Lösungen für anspruchsvolle Kunden"
+    },
+    "capabilities": {
+      "title": "Unsere Fähigkeiten",
+      "subtitle": "Komplettes Design und Herstellung für Premium-Marken",
+      "sticker": "Sticker-Plotterei",
+      "3d": "3D-Druck",
+      "design": "Design-Dienstleistungen",
+      "customization": "Maßgeschneiderte Fertigung"
+    },
+    "services": {
+      "title": "Unsere Dienstleistungen",
+      "subtitle": "Komplette Design- und Fertigungslösungen",
+      "design_title": "Design-Services",
+      "design_desc": "Individuelle Designberatung und maßgeschneiderte Lösungen",
+      "sticker_title": "Sticker-Plotterei",
+      "sticker_desc": "Professionelle Sticker-Plotterei für Aufkleber und Branding",
+      "3d_title": "3D-Druck",
+      "3d_desc": "Schnelle Prototypenfertigung und Produktions-3D-Druck"
+    },
+    "products": {
+      "title": "Unsere Produkte",
+      "subtitle": "Präzisions-engineerte Lösungen für maßgeschneiderte Fertigung und bespoke Kreationen",
+      "allProducts": "Alle Produkte",
+      "stickerPlotting": "Sticker-Plotterei",
+      "3dPrinting": "3D-Druck",
+      "castProducts": "Gegossene Produkte",
+      "customGifts": "Maßgeschneiderte Geschenke"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Ausgewählte Projekte und Fallstudien"
+    },
+    "about": {
+      "title": "Über AKARI",
+      "subtitle": "Premium-Design und Fertigungskompetenz",
+      "mission": "Unsere Mission",
+      "missionText": "Präzisions-engineerte maßgeschneiderte Lösungen liefern, die Erwartungen übertreffen",
+      "values": "Unsere Werte",
+      "expertise": "Unsere Expertise",
+      "team": "Unser Team"
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "subtitle": "Kontaktieren Sie uns für maßgeschneiderte Angebote und Anfragen",
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "company": "Unternehmen",
+      "service": "Dienstleistungsinteresse",
+      "message": "Ihre Nachricht",
+      "send": "Anfrage senden",
+      "faq": "Häufig gestellte Fragen"
+    },
+    "footer": "Berliner Design- und Fertigungsstudio. Premium-Produkte nach Maß und kleinchargige Produktion."
+  }
+}
+

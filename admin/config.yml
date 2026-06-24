@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "products"
+    extension: "md"
+    format: "frontmatter"
+    create: true
+    slug: "{{id}}"
+    fields:
+      - { label: "Product Name", name: "title", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "3D Printing", value: "3d-printing" }
+          - { label: "Sticker Plotting", value: "sticker-plotting" }
+          - { label: "Resin Products", value: "resin-products" }
+          - { label: "Custom Gifts", value: "custom-gifts" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Price Type", name: "priceType", widget: "select", options: ["fixed", "quote"] }
+      - { label: "CTA Text", name: "ctaText", widget: "string" }
+      - { label: "Icon", name: "icon", widget: "string", hint: "Emoji for the product card" }
+      - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Products JSON Editor — Akari Designs</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>body{padding:20px}.editor-area{width:100%;min-height:320px;font-family:monospace;padding:12px;border:1px solid #ddd;border-radius:6px;margin-bottom:10px} .editor-actions{display:flex;gap:8px}</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Products JSON Editor</h1>
+    <p>Edit your products file and download the updated `products.json` to replace the file in the site root.</p>
+    <textarea id="editor" class="editor-area">[]</textarea>
+    <div class="editor-actions">
+      <button id="loadBtn" class="btn">Load products.json</button>
+      <button id="downloadBtn" class="btn">Download JSON</button>
+    </div>
+    <p class="small">Note: edits here do not automatically write to the server — download and copy the file into the project root to persist changes.</p>
+  </div>
+
+  <script>
+    const editor = document.getElementById('editor');
+    const loadBtn = document.getElementById('loadBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+
+    loadBtn.addEventListener('click', ()=>{
+      fetch('products.json').then(r=>r.text()).then(t=>{ editor.value = t }).catch(err=>{ alert('Could not load products.json') });
+    });
+
+    downloadBtn.addEventListener('click', ()=>{
+      try{
+        const parsed = JSON.parse(editor.value);
+        const blob = new Blob([JSON.stringify(parsed, null, 2)], {type:'application/json'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url; a.download = 'products.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+      }catch(err){ alert('Invalid JSON — please correct before downloading.') }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – AKARI Designs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">AKARI</a>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="contact.html" class="btn btn-primary btn-small" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div id="language-switcher"></div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section style="background: linear-gradient(135deg, var(--bg-darker) 0%, var(--primary-dark) 100%); padding: 4rem var(--spacing-lg); text-align: center;">
+    <h1>Get in Touch</h1>
+    <p style="color: var(--accent-light-gold); font-size: 1.2rem; margin-top: 1rem;">We'd love to hear about your project</p>
+  </section>
+
+  <section style="background: var(--primary-dark);">
+    <div class="container">
+      <div class="grid grid-2" style="gap: var(--spacing-3xl);">
+        <!-- CONTACT FORM -->
+        <div>
+          <h2 style="margin-bottom: var(--spacing-lg);">Send us a Message</h2>
+          <form id="contact-form" style="max-width: 100%;">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company / Brand</label>
+              <input type="text" id="company" name="company">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interest *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="design">Design Services</option>
+                <option value="sticker-plotting">Sticker Plotting</option>
+                <option value="acrylic">Acrylic Fabrication</option>
+                <option value="3d">3D Printing</option>
+                <option value="production">Production Services</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell us about your project *</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">We'll respond within 24 hours.</p>
+          </form>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div>
+          <h2 style="margin-bottom: var(--spacing-xl);">Contact Information</h2>
+          
+          <div style="background: rgba(212, 175, 55, 0.05); padding: var(--spacing-xl); border-radius: 8px; border: 1px solid rgba(212, 175, 55, 0.2); margin-bottom: var(--spacing-xl);">
+            <div class="footer-contact" style="gap: var(--spacing-lg);">
+              <div class="footer-contact-item">
+                <span style="font-size: 1.5rem;">✉️</span>
+                <div>
+                  <p style="font-weight: 600; color: var(--accent-gold); margin-bottom: 4px;">Email</p>
+                  <a href="mailto:hello@akaridesigns.de">hello@akaridesigns.de</a>
+                  <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;">Response time: 24 hours</p>
+                </div>
+              </div>
+
+              <div class="footer-contact-item">
+                <span style="font-size: 1.5rem;">📍</span>
+                <div>
+                  <p style="font-weight: 600; color: var(--accent-gold); margin-bottom: 4px;">Location</p>
+                  <p style="color: var(--text-muted);">Berlin, Germany</p>
+                  <p style="color: var(--text-muted); font-size: 0.85rem;">Studio visits by appointment</p>
+                </div>
+              </div>
+
+              <div class="footer-contact-item">
+                <span style="font-size: 1.5rem;">💬</span>
+                <div>
+                  <p style="font-weight: 600; color: var(--accent-gold); margin-bottom: 4px;">WhatsApp</p>
+                  <a href="https://wa.me/49" target="_blank">Message us</a>
+                  <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;">Quick response</p>
+                </div>
+              </div>
+
+              <div class="footer-contact-item">
+                <span style="font-size: 1.5rem;">📞</span>
+                <div>
+                  <p style="font-weight: 600; color: var(--accent-gold); margin-bottom: 4px;">Phone</p>
+                  <a href="tel:+49">Contact for number</a>
+                  <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;">Business hours: Mon-Fri 9-17</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">Quick Response Options</h3>
+          <div class="btn-group" style="flex-direction: column; gap: var(--spacing-md);">
+            <a href="https://wa.me/49" target="_blank" class="btn btn-secondary" style="width: 100%;">💬 WhatsApp</a>
+            <a href="mailto:hello@akaridesigns.de" class="btn btn-secondary" style="width: 100%;">✉️ Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="grid grid-2">
+        <div>
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">What's your typical turnaround time?</h3>
+          <p style="color: var(--text-muted); margin-bottom: var(--spacing-lg);">Turnaround depends on project complexity. Small orders typically 3-5 days, larger projects 2-4 weeks. We'll provide exact timeline with your quote.</p>
+
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">Do you accept custom orders?</h3>
+          <p style="color: var(--text-muted); margin-bottom: var(--spacing-lg);">Absolutely! Custom orders are our specialty. We can create virtually anything you envision. Send us your requirements for a custom quote.</p>
+
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">What's the minimum order quantity?</h3>
+          <p style="color: var(--text-muted);">Most products start at 1 unit for custom work. For bulk production, minimums vary. Contact us with your needs.</p>
+        </div>
+
+        <div>
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">Do you offer design services?</h3>
+          <p style="color: var(--text-muted); margin-bottom: var(--spacing-lg);">Yes! We provide full design services from concept to final artwork. Our designers can create everything from scratch or enhance your existing designs.</p>
+
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">Can I see samples before ordering?</h3>
+          <p style="color: var(--text-muted); margin-bottom: var(--spacing-lg);">We offer prototyping and samples for most services. Perfect for validating your design before full production.</p>
+
+          <h3 style="color: var(--accent-gold); margin-bottom: var(--spacing-md);">What payment methods do you accept?</h3>
+          <p style="color: var(--text-muted);">We accept bank transfers, credit cards, and PayPal. Payment terms available for established clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About AKARI</h3>
+          <p style="color: var(--text-muted);">Berlin-based design and manufacturing studio specializing in custom products and small-batch production.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <div class="footer-contact">
+            <div class="footer-contact-item">
+              <span>✉️</span>
+              <div>
+                <p style="font-weight: 600; margin-bottom: 4px;">Email</p>
+                <a href="mailto:hello@akaridesigns.de">hello@akaridesigns.de</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 AKARI Designs. All rights reserved. | <a href="imprint.html">Imprint</a> | <a href="privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

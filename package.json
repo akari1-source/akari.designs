@@ -1,0 +1,10 @@
+{
+  "name": "akari-designs",
+  "version": "0.1.0",
+  "description": "One-page product site for Akari Designs",
+  "scripts": {
+    "start": "npx http-server . -p 3000"
+  },
+  "author": "Akari Designs",
+  "license": "MIT"
+}
