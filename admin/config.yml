@@ -6,31 +6,27 @@ media_folder: "images"
 public_folder: "/images"
 
 collections:
-  - name: "products"
+  - name: "product"
     label: "Products"
-    file: "products.json"
-    format: "json"
-    create: false
-    edit: true
+    folder: "products"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "products/{{slug}}"
     fields:
-      - name: products
-        label: "Products"
-        widget: "list"
-        required: false
-        fields:
-          - { label: "ID", name: "id", widget: "string" }
-          - { label: "Product Name", name: "title", widget: "string" }
-          - label: "Category"
-            name: "category"
-            widget: "select"
-            options:
-              - { label: "3D Printing", value: "3d-printing" }
-              - { label: "Sticker Plotting", value: "sticker-plotting" }
-              - { label: "Resin Products", value: "resin-products" }
-              - { label: "Custom Gifts", value: "custom-gifts" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Price", name: "price", widget: "string" }
-          - { label: "Price Type", name: "priceType", widget: "select", options: ["fixed", "quote"] }
-          - { label: "CTA Text", name: "ctaText", widget: "string" }
-          - { label: "Icon", name: "icon", widget: "string", hint: "Emoji for the product card" }
-          - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "ID", name: "id", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "3D Printing", value: "3d-printing" }
+          - { label: "Sticker Plotting", value: "sticker-plotting" }
+          - { label: "Resin Products", value: "resin-products" }
+          - { label: "Custom Gifts", value: "custom-gifts" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Price Type", name: "priceType", widget: "select", options: ["fixed", "quote"], default: "fixed" }
+      - { label: "CTA Text", name: "ctaText", widget: "string", default: "Inquire" }
+      - { label: "Icon", name: "icon", widget: "string", hint: "Emoji for product card", default: "📦" }
+      - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
