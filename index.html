@@ -193,5 +193,12 @@
 
     document.addEventListener('DOMContentLoaded', loadFeaturedProducts);
   </script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity && (location.hash.includes('invite_token') || location.hash.includes('recovery_token'))) {
+      netlifyIdentity.init();
+      netlifyIdentity.open();
+    }
+  </script>
 </body>
 </html>
