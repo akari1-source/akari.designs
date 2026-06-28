@@ -195,9 +195,13 @@
   </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script>
-    if (window.netlifyIdentity && (location.hash.includes('invite_token') || location.hash.includes('recovery_token'))) {
+    if (window.netlifyIdentity) {
+      netlifyIdentity.on('init', function() {
+        if (location.hash.includes('invite_token') || location.hash.includes('recovery_token')) {
+          netlifyIdentity.open();
+        }
+      });
       netlifyIdentity.init();
-      netlifyIdentity.open();
     }
   </script>
 </body>
