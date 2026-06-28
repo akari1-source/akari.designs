@@ -197,8 +197,10 @@
   <script>
     if (window.netlifyIdentity) {
       netlifyIdentity.on('init', function() {
-        if (location.hash.includes('invite_token') || location.hash.includes('recovery_token')) {
-          netlifyIdentity.open();
+        if (location.hash.includes('recovery_token')) {
+          netlifyIdentity.open('recover');
+        } else if (location.hash.includes('invite_token')) {
+          netlifyIdentity.open('invite');
         }
       });
       netlifyIdentity.init();
