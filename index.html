@@ -201,6 +201,8 @@
           netlifyIdentity.open('recover');
         } else if (location.hash.includes('invite_token')) {
           netlifyIdentity.open('invite');
+        } else if (location.hash.includes('confirmation_token')) {
+          netlifyIdentity.open('confirm');
         }
       });
       netlifyIdentity.init();
