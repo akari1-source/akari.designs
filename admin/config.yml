@@ -12,7 +12,8 @@ collections:
     folder: "products"
     create: true
     slug: "{{id}}"
-    preview_path: "products/{{id}}"
+    extension: "md"
+    format: "frontmatter"
     fields:
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
