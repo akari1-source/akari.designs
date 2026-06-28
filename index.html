@@ -193,20 +193,5 @@
 
     document.addEventListener('DOMContentLoaded', loadFeaturedProducts);
   </script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      netlifyIdentity.on('init', function() {
-        if (location.hash.includes('recovery_token')) {
-          netlifyIdentity.open('recover');
-        } else if (location.hash.includes('invite_token')) {
-          netlifyIdentity.open('invite');
-        } else if (location.hash.includes('confirmation_token')) {
-          netlifyIdentity.open('confirm');
-        }
-      });
-      netlifyIdentity.init();
-    }
-  </script>
 </body>
 </html>
