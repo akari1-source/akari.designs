@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /editor.html
+Disallow: /build.js
+Disallow: /server.js
+Disallow: /create-products.js
+Disallow: /test-sections.js
+Disallow: /.git/
+
+Sitemap: https://akari1.com/sitemap.xml
+Sitemap: https://www.akari1.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

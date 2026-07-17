@@ -1,11 +1,11 @@
 ---
-title: "Resin Trays"
-category: "resin-products"
-description: "Precision-cast resin trays for organization and display"
+title: "Trays"
+category: "home-decor"
+description: "Precision-cast trays for organization and display"
 price: "From €35"
 priceType: "fixed"
 featured: false
 ctaText: "Inquire"
 icon: "🔮"
 ---
-Precision-cast resin trays for organization and display
+Precision-cast trays for organization and display

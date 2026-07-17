@@ -20,16 +20,17 @@ collections:
       - label: "Category"
         name: "category"
         widget: "select"
-        default: "3d-printing"
+        default: "art"
         options:
-          - { label: "3D Printing", value: "3d-printing" }
-          - { label: "Sticker Plotting", value: "sticker-plotting" }
-          - { label: "Resin Products", value: "resin-products" }
-          - { label: "Custom Gifts", value: "custom-gifts" }
+          - { label: "Flower Preservation", value: "flower-preservation" }
+          - { label: "Art", value: "art" }
+          - { label: "Personalized Gifts", value: "personalized-gifts" }
+          - { label: "Home Décor", value: "home-decor" }
+          - { label: "Creative Services", value: "creative-services" }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { label: "Price", name: "price", widget: "string", required: false }
-      - { label: "Price Type", name: "priceType", widget: "select", options: ["fixed", "quote"], default: "fixed", required: false }
-      - { label: "CTA Text", name: "ctaText", widget: "string", default: "Inquire", required: false }
+      - { label: "Price Type", name: "priceType", widget: "select", options: ["starting", "hourly", "quote"], default: "starting", required: false }
+      - { label: "CTA Text", name: "ctaText", widget: "string", default: "Customize Yours", required: false }
       - { label: "Icon", name: "icon", widget: "string", default: "📦", required: false }
       - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }

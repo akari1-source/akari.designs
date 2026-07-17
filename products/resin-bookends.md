@@ -1,11 +1,11 @@
 ---
-title: "Resin Bookends"
-category: "resin-products"
-description: "Custom resin bookends with 3D printed cores"
-price: "From €28"
-priceType: "fixed"
+title: "Bookends"
+category: "art"
+description: "Custom bookends that elevate your space with functional art and preserved beauty"
+price: "Starting from €149"
+priceType: "starting"
 featured: true
-ctaText: "Inquire"
-icon: "🔮"
+ctaText: "Customize Yours"
+icon: "📚"
 ---
-Custom resin bookends with 3D printed cores
+Custom bookends that elevate your space with functional art and preserved beauty

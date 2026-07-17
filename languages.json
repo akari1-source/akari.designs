@@ -6,77 +6,400 @@
       "services": "Services",
       "portfolio": "Portfolio",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "collections": "Collections",
+      "customOrders": "Custom Orders"
     },
     "common": {
-      "inquire": "Inquire",
-      "requestQuote": "Request Quote",
-      "from": "From",
-      "price": "Price"
+      "inquire": "Customize Yours",
+      "requestQuote": "Request a Quote",
+      "from": "Starting from",
+      "price": "Price",
+      "allRightsReserved": "All rights reserved",
+      "pricingNotice": "Every AKARI piece is handcrafted and made to order. Final pricing depends on size, materials, personalization and design complexity. Contact us for a free custom quotation.",
+      "pricingVariables": "Final price depends on",
+      "size": "Size",
+      "materials": "Materials",
+      "flowers": "Flowers used",
+      "personalization": "Personalization",
+      "engraving": "Engraving",
+      "designComplexity": "Design complexity"
     },
     "hero": {
-      "title": "Precision-Engineered Custom Manufacturing",
-      "subtitle": "Berlin-based design studio specializing in bespoke products and small-batch production",
-      "cta1": "Explore Our Work",
-      "cta2": "Collaborate"
+      "title": "Preserving Memories. Creating Meaningful Pieces.",
+      "subtitle": "Luxury handcrafted keepsakes, personalized gifts and custom décor made with care in Germany.",
+      "cta1": "Explore Collections",
+      "cta2": "Request a Custom Order",
+      "inquire": "Inquire",
+      "slideCtaPrefix": "Explore"
+    },
+"collections": {
+      "title": "Timeless Occasions",
+      "subtitle": "Preserve life's most precious moments with elegant handcrafted keepsakes",
+      "flower": "Floral Preservation",
+      "personalized": "Personalized Gifts",
+      "decor": "Home Décor",
+      "art": "Art",
+      "wedding": "Wedding Keepsakes"
+    },
+    "heroCarousel": {
+      "preservedFlowers": {
+        "title": "Preserved Flowers",
+        "description": "Forever-preserved flowers and wedding bouquets preserved forever in crystal-clear material. A timeless keepsake for your most cherished moments."
+      },
+      "bookends": {
+        "title": "Bookends",
+        "description": "Custom bookends with 3D-printed cores. Functional art that elevates your space and keeps your shelves perfectly organized."
+      },
+      "earrings": {
+        "title": "Earrings",
+        "description": "Bespoke earrings crafted with precision. Lightweight, durable, and uniquely designed to complement your personal style."
+      },
+      "coasters": {
+        "title": "Coasters",
+        "description": "Handcrafted coasters that protect your surfaces with style. Each piece is unique, making them perfect for gifting or elevating your home décor."
+      },
+      "trays": {
+        "title": "Trays",
+        "description": "Precision-cast trays for jewelry, keys, or vanity organization. Functional design meets artistic expression in every piece."
+      }
     },
     "featuredProducts": {
-      "title": "Featured Products",
-      "subtitle": "Precision-engineered solutions for discerning clients"
+      "title": "Best Sellers",
+      "subtitle": "Our most beloved handcrafted pieces, each telling its own story"
     },
     "capabilities": {
       "title": "Our Capabilities",
       "subtitle": "Complete design and manufacturing for premium brands",
-      "sticker": "Sticker Plotting",
-      "3d": "3D Printing",
       "design": "Design Services",
-      "customization": "Custom Fabrication"
+      "3d": "3D Printing",
+      "customization": "Custom Fabrication",
+      "sticker": "Sticker Plotting",
+      "customAcrylic": "Custom acrylic cutting, engraving, and assembly"
+    },
+    "whyAkari": {
+      "title": "Why AKARI",
+      "subtitle": "Handcrafted with love. Designed to preserve your memories for a lifetime.",
+      "handmade_title": "Handmade with Care",
+      "handmade_desc": "Every piece is lovingly crafted by hand in our Berlin studio with meticulous attention to detail",
+      "materials_title": "Premium Materials",
+      "materials_desc": "We source only the finest materials to ensure each creation stands the test of time",
+      "story_title": "Designed for Your Story",
+      "story_desc": "Every piece tells a story – we create meaningful keepsakes that celebrate your unique journey",
+      "germany_title": "Made in Germany",
+      "germany_desc": "Proudly crafted in Germany with precision and the highest quality standards",
+      "item5_title": "Thoughtful Gifts",
+      "item5_desc": "Meaningful gifts that carry emotion and create lasting memories for loved ones",
+      "item6_title": "Made to Last Forever",
+      "item6_desc": "Built with premium materials and craftsmanship to stand the test of time"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Tell us about your project and we'll provide a detailed quote within 24 hours.",
+      "button": "Request a Quote",
+      "custom_title": "Need a Custom Solution?",
+      "custom_subtitle": "Can't find exactly what you're looking for? We create custom products tailored to your specifications.",
+      "custom_button": "Get Custom Quote",
+      "portfolio_title": "Your Project Could Be Next",
+      "portfolio_subtitle": "We're ready to bring your vision to life. Let's collaborate on something extraordinary.",
+      "portfolio_button": "Start Your Project",
+      "about_title": "Let's Work Together",
+      "about_subtitle": "Ready to create something amazing? Get in touch with our team to discuss your next project.",
+      "about_button": "Contact Us"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "From idea to cherished keepsake in four simple steps",
+      "step1_title": "Share Your Idea",
+      "step1_desc": "Tell us about your vision, special memories, or what you'd like to preserve",
+      "step2_title": "Design Consultation",
+      "step2_desc": "We'll discuss options, materials, and create a custom design just for you",
+      "step3_title": "Handmade Production",
+      "step3_desc": "Your piece is carefully handcrafted in our studio with love and attention",
+      "step4_title": "Delivered with Care",
+      "step4_desc": "We package your keepsake beautifully and deliver it ready to treasure"
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "From your idea to a handcrafted keepsake.",
+      "step1_title": "Choose Your Order",
+      "step1_desc": "Browse our collections, personalize an existing design, preserve meaningful flowers or keepsakes, or bring us your own unique idea. If you don't see what you're looking for, we'll work with you to create a completely custom design from scratch.",
+      "step2_title": "Share Your Vision",
+      "step2_desc": "Send us your flowers, photos, names, colors, meaningful items, inspiration images, or simply describe your idea. We also create custom products for weddings, baby showers, birthdays, corporate gifts, return gifts, and bulk orders.",
+      "step3_title": "Designed & Handcrafted",
+      "step3_desc": "We carefully design and handcraft every piece in our Berlin studio using premium materials, preserving every detail with exceptional craftsmanship and care.",
+      "step4_title": "Made to Treasure",
+      "step4_desc": "Your finished keepsake is carefully packaged and delivered, ready to display, gift, and cherish for years to come."
+    },
+"testimonials": {
+      "title": "What Our Customers Say",
+      "subtitle": "Stories from those who've preserved their precious memories with us",
+      "quote1": "The bookends made from my wedding bouquet are absolutely breathtaking. Every petal is perfectly preserved and the craftsmanship is exceptional.",
+      "quote2": "AKARI transformed my grandmother's garden roses into a stunning letter 'M'. It's a treasure I'll pass down to my children.",
+      "quote3": "The custom earrings made from my daughter's first birthday flowers are wearable art. So much more beautiful than I imagined!"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about our handcrafted creations",
+      "q1": "Do you accept custom orders? How does the process work?",
+      "q2": "How does flower preservation work? How long does it last?",
+      "q3": "Can you preserve my wedding bouquet?",
+      "q4": "What materials do you use for your handcrafted pieces?",
+      "q5": "How long does production take? When will I receive my order?",
+      "q6": "How should I care for my handcrafted keepsake?"
+    },
+    "contactCta": {
+      "title": "Ready to Preserve Your Memories?",
+      "subtitle": "Let's create something meaningful together. Every piece tells a story.",
+      "button": "Request Custom Order",
+      "button1": "Request Custom Order",
+      "button2": "Contact Us"
+    },
+    "creativeServices": {
+      "title": "Creative Services",
+      "subtitle": "Additional services to complement your handcrafted pieces"
     },
     "services": {
-      "title": "Our Services",
-      "subtitle": "Complete design and manufacturing solutions",
-      "design_title": "Design Services",
-      "design_desc": "Bespoke design consultation and custom solutions",
+      "title": "Creative Services",
+      "subtitle": "Complementary creative services for personalized touches and special projects",
+      "creative_title": "Digital Fabrication & Precision Cutting",
+      "creative_desc": "Thoughtful creative services that enhance our handcrafted collections with personalized details",
       "sticker_title": "Sticker Plotting",
-      "sticker_desc": "Professional sticker plotting for decals and branding",
-      "3d_title": "3D Printing",
-      "3d_desc": "Rapid prototyping and production 3D printing"
+      "sticker_desc": "Precision-cut stickers for personal touches and brand accents",
+      "sticker_price": "Starting from €10",
+      "printing_title": "Sticker Printing",
+      "printing_desc": "Beautifully printed stickers with vibrant colors and lasting finish",
+      "printing_price": "Starting from €15",
+      "vinyl_title": "Vinyl Decals",
+      "vinyl_desc": "Handcrafted vinyl decals for lasting personal expression",
+      "vinyl_price": "Starting from €12",
+      "acrylic_title": "Acrylic Signs",
+      "acrylic_desc": "Elegant acrylic signage crafted with care and precision",
+      "acrylic_price": "Starting from €35",
+      "3d_design_title": "3D Design",
+      "3d_design_desc": "Creative 3D modeling for unique artistic visions",
+      "3d_design_price": "€40/hour",
+      "3d_print_title": "3D Printing",
+      "3d_print_desc": "Thoughtful 3D printing for prototypes and special pieces",
+      "3d_print_price": "Starting from €20",
+      "collection_link": "Explore our handcrafted collections"
     },
-    "products": {
-      "title": "Our Products",
-      "subtitle": "Precision-engineered solutions for custom manufacturing and bespoke creations",
-      "allProducts": "All Products",
-      "stickerPlotting": "Sticker Plotting",
-      "3dPrinting": "3D Printing",
-      "castProducts": "Cast Products",
-      "customGifts": "Custom Gifts"
+"products": {
+      "title": "Our Collections",
+      "subtitle": "Handcrafted keepsakes, personalized gifts and custom décor made with care",
+      "allProducts": "All",
+      "flowerPreservation": "Flower Preservation",
+      "bookends": "Bookends",
+      "letters": "Letters",
+      "coasters": "Coasters",
+      "bookmarks": "Bookmarks",
+      "earrings": "Earrings",
+      "photoFrames": "Photo Frames",
+      "clocks": "Clocks",
+      "trays": "Trays",
+      "luxuryArt": "Luxury Art",
+      "personalizedGifts": "Personalized Gifts",
+      "homeDecor": "Home Décor",
+      "creativeServices": "Creative Services",
+      "cta_title": "Need a Custom Solution?",
+      "cta_subtitle": "Can't find exactly what you're looking for? We create custom pieces tailored to your specifications.",
+      "cta_button": "Request a Custom Order"
     },
     "portfolio": {
-      "title": "Portfolio",
-      "subtitle": "Featured projects and case studies"
+      "title": "Our Portfolio",
+      "subtitle": "Showcase of recent projects and collaborations",
+      "cta_title": "Your Project Could Be Next",
+      "luxury": "Luxury Brand Identity",
+      "luxury_desc": "Complete branding package for a Berlin-based luxury skincare brand including logo design, packaging, and marketing materials.",
+      "packaging": "Custom Packaging Design",
+      "packaging_desc": "Bespoke packaging design and production for a premium product line launch including unboxing experience optimization.",
+      "signage": "Acrylic Signage Installation",
+      "signage_desc": "LED-illuminated acrylic signage for a flagship restaurant, featuring custom design and installation in Berlin's Kreuzberg district.",
+      "wedding": "Wedding Décor & Signage",
+      "wedding_desc": "Complete wedding decoration package with personalized signage, table numbers, and ceremony backdrops for 150-guest celebration.",
+      "prototyping": "3D Printing & Prototyping",
+      "prototyping_desc": "Rapid prototyping service for a tech startup, producing iterative models for product refinement and investor presentations.",
+      "corporate": "Corporate Branding Suite",
+      "corporate_desc": "Full branding and signage package for a corporate office including environmental graphics and wayfinding systems."
     },
-    "about": {
+    "instagram": {
+      "title": "Follow Our Journey",
+      "subtitle": "Stay connected with AKARI on Instagram",
+      "handle": "@akaridesigns"
+    },
+    "customOrders": {
+      "title": "Custom Orders",
+      "subtitle": "Create a one-of-a-kind piece tailored to your vision",
+      "processTitle": "The Custom Order Process",
+      "processSubtitle": "How we bring your unique idea to life",
+      "timelineTitle": "Typical Timeline",
+      "timelineText": "Most custom pieces take 2-4 weeks from design approval to delivery. Rush orders may be possible for an additional fee.",
+      "pricingTitle": "Pricing",
+      "pricingText": "Each custom piece is unique. Pricing starts from €49 for simple personalized gifts and varies based on size, materials, flowers, and complexity. We provide a detailed quote after your consultation.",
+      "faqTitle": "Custom Order FAQ",
+      "faq1_q": "How do I start a custom order?",
+      "faq1_a": "Simply reach out via our contact form or email. Tell us about your vision, and we'll schedule a free design consultation to discuss your ideas, materials, and timeline.",
+      "faq2_q": "Can I use my own flowers?",
+      "faq2_a": "Absolutely! We work with your preserved or fresh flowers. We'll guide you on the best way to send them to us for preservation.",
+      "faq3_q": "What if I don't have a specific design in mind?",
+      "faq3_a": "No problem! Our design team will work with you to create something beautiful based on your preferences, colors, and the story you want to tell.",
+      "faq4_q": "Do you offer gift wrapping?",
+      "faq4_a": "Yes! Every order comes beautifully packaged in our signature luxury wrapping, ready for gifting.",
+      "faq5_q": "Can I make changes during the process?",
+      "faq5_a": "We welcome your input! You'll receive progress photos and can request adjustments before final completion.",
+      "faq6_q": "What payment methods do you accept?",
+      "faq6_a": "We accept bank transfers, credit cards, and PayPal. A 50% deposit is required to begin work, with the balance due before shipping."
+    },
+"about": {
       "title": "About AKARI",
-      "subtitle": "Premium design and manufacturing excellence",
-      "mission": "Our Mission",
-      "missionText": "To deliver precision-engineered custom solutions that exceed expectations",
+      "subtitle": "The story behind our handcrafted keepsakes",
+      "missionTitle": "Our Mission",
+      "missionText": "To transform fleeting moments into timeless treasures through the art of luxury preservation. We believe every flower, every memory, every special occasion deserves to be honored and remembered forever.",
       "values": "Our Values",
       "expertise": "Our Expertise",
-      "team": "Our Team"
-    },
-    "contact": {
+      "expSubtitle": "6+ years of experience in handcrafted flower preservation",
+      "meetTheMaker": "Meet the Maker",
+      "makerSubtitle": "Crafting timeless keepsakes, one memory at a time.",
+      "makerStory": "Hi, I'm Heena, the maker behind Akari Designs. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
+      "makerStory2": "That's what inspired me to create Akari Designs. Every piece is handcrafted by me with patience, love, and attention to detail. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
+      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come. Thank you for trusting me to preserve your special moments.",
+      "feature1": "Handmade with Love",
+      "feature2": "Flower Preservation Specialist",
+      "feature3": "Personalized for Every Customer",
+      "feature4": "Handmade in Germany",
+      "makerCta": "Ready to preserve your special memories?",
+      "makerCtaBtn": "Start Your Custom Order",
+      "storyTitle": "Our Story",
+      "storyText": "What started as a passion for flower preservation has grown into a Berlin-based studio dedicated to creating meaningful, handcrafted keepsakes that tell your unique story.",
+      "founded": "Founded in 2018, we've built a reputation for delivering premium, custom-made solutions that exceed expectations. Our Berlin-based studio combines traditional craftsmanship with modern design to create products that truly stand out.",
+      "values": "Our Values",
+      "expertise": "Our Expertise",
+      "expSubtitle": "6+ years of experience in design and manufacturing",
+      "team": "Meet the Team",
+      "teamSubtitle": "Passionate creatives and skilled manufacturers",
+"valuesList": {
+         "quality": "Quality First",
+         "quality_desc": "Every product reflects our commitment to excellence",
+         "collab": "Creative Collaboration",
+         "collab_desc": "We listen, ideate, and create together with clients",
+         "sustainable": "Sustainable Practice",
+         "sustainable_desc": "Responsible manufacturing and ethical sourcing",
+         "innovation": "Innovation",
+         "innovation_desc": "Constantly exploring new techniques and technologies"
+       },
+       "teamMembers": {
+         "sarah": {
+           "name": "Sarah Müller",
+           "title": "Founder & Creative Director",
+           "desc": "With a background in graphic design and a passion for craftsmanship, Sarah founded AKARI to bring exceptional design to life."
+         },
+         "marcus": {
+           "name": "Marcus Weber",
+           "title": "Technical Director",
+           "desc": "A skilled engineer with expertise in laser fabrication and 3D printing, Marcus ensures every project meets the highest standards."
+         },
+         "felix": {
+           "name": "Felix König",
+           "title": "Production Manager",
+           "desc": "Felix coordinates all production operations, ensuring timely delivery and consistent quality across every project."
+         }
+       }
+     },
+     "contact": {
       "title": "Contact Us",
       "subtitle": "Get in touch for custom quotes and inquiries",
       "name": "Your Name",
       "email": "Email Address",
       "phone": "Phone Number",
-      "company": "Company",
+      "company": "Company / Brand",
       "service": "Service Interest",
-      "message": "Your Message",
-      "send": "Send Inquiry",
-      "faq": "Frequently Asked Questions"
+      "message": "Tell us about your project",
+      "send": "Send Message",
+      "response": "We'll respond within 24 hours.",
+      "info": "Contact Information",
+      "emailLabel": "Email",
+      "locationLabel": "Location",
+      "location": "Berlin, Germany",
+      "quick": "Quick Response Options",
+      "whatsappLabel": "WhatsApp",
+      "whatsappDesc": "Quick response",
+      "phoneLabel": "Phone",
+      "phoneDesc": "Business hours: Mon-Fri 9-17",
+      "faq": "Frequently Asked Questions",
+      "faq1_q": "What's your typical turnaround time?",
+      "faq1_a": "Turnaround depends on project complexity. Small orders typically 3-5 days, larger projects 2-4 weeks. We'll provide exact timeline with your quote.",
+      "faq2_q": "Do you accept custom orders?",
+      "faq2_a": "Absolutely! Custom orders are our specialty. We can create virtually anything you envision. Send us your requirements for a custom quote.",
+      "faq3_q": "What's the minimum order quantity?",
+      "faq3_a": "Most products start at 1 unit for custom work. For bulk production, minimums vary. Contact us with your needs.",
+      "faq4_q": "Do you offer design services?",
+      "faq4_a": "Yes! We provide full design services from concept to final artwork. Our designers can create everything from scratch or enhance your existing designs.",
+      "faq5_q": "Can I see samples before ordering?",
+      "faq5_a": "We offer prototyping and samples for most services. Perfect for validating your design before full production.",
+      "faq6_q": "What payment methods do you accept?",
+      "faq6_a": "We accept bank transfers, credit cards, and PayPal. Payment terms available for established clients."
     },
-    "footer": "Berlin-based design and manufacturing studio. Premium custom products and small-batch production."
+    "footer": {
+      "about": "About AKARI",
+      "aboutText": "Luxury handcrafted flower preservation, handcrafted art, personalized gifts and custom décor made with care in Germany.",
+      "links": "Quick Links",
+      "collections": "Collections",
+      "contact": "Contact",
+      "social": "Follow Us",
+      "email": "Email",
+      "copyright": "© 2024 AKARI Designs. All rights reserved.",
+      "imprint": "Imprint",
+      "privacy": "Privacy Policy"
+    },
+    "imprint": {
+      "title": "Imprint",
+      "subtitle": "Legal information and company details",
+      "operator": "Operator Information",
+      "company": "Company Details",
+      "contact": "Contact Information",
+      "registration": "Company Registration",
+      "responsible": "Responsible for Content",
+      "liability": "Liability and Disclaimer",
+      "liabilityText": "The website and its content are provided \"as is\" without warranty of any kind. AKARI Designs disclaims all liability for damages arising from the use or inability to use the website, including but not limited to direct, indirect, incidental, or consequential damages.",
+      "links": "External Links",
+      "linksText": "AKARI Designs is not responsible for the content of external websites linked from our site. The content of external websites is the responsibility of their respective operators.",
+      "copyright": "Copyright",
+      "copyrightText": "All content on this website, including text, images, graphics, logos, and designs, is the property of AKARI Designs or its content providers.",
+      "dispute": "Dispute Resolution",
+      "disputeText": "The laws of Germany apply to all matters relating to this website and the use thereof. The parties irrevocably submit to the exclusive jurisdiction of the courts in Berlin, Germany.",
+      "data": "Data Protection",
+      "dataText": "For information about how we handle your personal data, please refer to our Privacy Policy.",
+      "changes": "Changes to Imprint",
+      "changesText": "AKARI Designs reserves the right to modify this imprint at any time without notice. Your continued use of the website following any such modification constitutes your acceptance of the revised imprint.",
+      "updated": "Last updated: 2024 | For updates, please check back regularly"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "How we protect your personal data",
+      "intro": "AKARI Designs respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website and use our services.",
+      "section1": "1. Introduction",
+      "section2": "2. Information We Collect",
+      "section2_text": "We may collect the following types of information:",
+      "section3": "3. How We Use Your Information",
+      "section3_text": "We use the collected information for:",
+      "section4": "4. Data Protection and Security",
+      "section5": "5. Sharing Your Information",
+      "section6": "6. Cookies and Tracking",
+      "section7": "7. Your Rights",
+      "section7_text": "Under applicable laws, you have the right to:",
+      "section8": "8. Contact Forms",
+      "section9": "9. Third-Party Links",
+      "section10": "10. Children's Privacy",
+      "section11": "11. Changes to This Policy",
+      "section12": "12. Contact Us",
+      "section12_text": "If you have questions about our privacy practices or wish to exercise your rights, please contact us:",
+      "response": "We will respond to your request within 30 days.",
+      "gdpr": "Last updated: 2024 | This policy complies with GDPR and German data protection laws"
+    },
+    "formPlaceholders": {
+      "selectService": "Select a service",
+      "other": "Other"
+    }
   },
   "de": {
     "nav": {
@@ -85,77 +408,458 @@
       "services": "Dienstleistungen",
       "portfolio": "Portfolio",
       "about": "Über uns",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "collections": "Kollektionen",
+      "customOrders": "Individuelle Bestellungen",
+      "gallery": "Galerie"
     },
     "common": {
-      "inquire": "Anfragen",
+      "inquire": "Anpassen",
       "requestQuote": "Angebot anfordern",
       "from": "Ab",
-      "price": "Preis"
+      "price": "Preis",
+      "allRightsReserved": "Alle Rechte vorbehalten",
+      "pricingNotice": "Jedes AKARI-Stück wird handgefertigt und auf Bestellung gefertigt. Der Endpreis hängt von Größe, Materialien, Personalisierung und Designkomplexität ab. Kontaktieren Sie uns für ein kostenloses individuelles Angebot.",
+      "pricingVariables": "Endpreis hängt ab von",
+      "size": "Größe",
+      "materials": "Materialien",
+      "flowers": "Verwendete Blumen",
+      "personalization": "Personalisierung",
+      "engraving": "Gravur",
+      "designComplexity": "Designkomplexität"
     },
     "hero": {
-      "title": "Präzisions-Engineering für maßgeschneiderte Fertigung",
-      "subtitle": "Berliner Design-Studio spezialisiert auf individuelle Produkte und kleinchargige Produktion",
-      "cta1": "Unsere Arbeiten erkunden",
-      "cta2": "Zusammenarbeiten"
+      "title": "Erinnerungen bewahren. Bedeutungsvolle Stücke schaffen.",
+      "subtitle": "Luxus-Handgemachte Andenken, personalisierte Geschenke und maßgeschneiderte Dekoration mit Sorgfalt in Deutschland.",
+      "cta1": "Kollektionen erkunden",
+      "cta2": "Individuelle Bestellung anfordern",
+      "inquire": "Anfragen",
+      "slideCtaPrefix": "Erkunden"
+    },
+    "collections": {
+      "title": "Zeitlose Anlässe",
+      "subtitle": "Bewahren Sie die wertvollsten Momente mit eleganten handgefertigten Andenken",
+      "flower": "Blumenkonservierung",
+      "personalized": "Personalisierte Geschenke",
+      "decor": "Wohnaccessoires",
+      "art": "Kunst",
+      "wedding": "Hochzeitsandenken"
+    },
+    "heroCarousel": {
+      "preservedFlowers": {
+        "title": "Erinnerungen bewahren. Bedeutungsvolle Stücke schaffen.",
+        "description": "Luxus-Handgemachte Andenken, personalisierte Geschenke und maßgeschneiderte Dekoration mit Sorgfalt in Deutschland."
+      },
+      "personalizedLetters": {
+        "title": "Personalized Letters & Custom Art",
+        "description": "Custom letters and gifts celebrating your unique story."
+      },
+      "marbleTray": {
+        "title": "Marmor Tablett Kollektion",
+        "description": "Elegante Marmor-Effekt Tabletts für Ihren Raum mit zeitlosem Stil."
+      },
+      "coasters": {
+        "title": "Handgemachte Untersetzer",
+        "description": "Schöne Untersetzer für Ihre Oberflächen mit einem Hauch von Luxus."
+      },
+      "bookmarks": {
+        "title": "Lesezeichen",
+        "description": "Zarte Lesezeichen mit Florapreservation für besondere Momente."
+      }
     },
     "featuredProducts": {
-      "title": "Ausgewählte Produkte",
-      "subtitle": "Präzisions-engineerte Lösungen für anspruchsvolle Kunden"
+      "title": "Bestseller",
+      "subtitle": "Unsere beliebtesten handgemachten Stücke, jedes mit seiner eigenen Geschichte"
     },
     "capabilities": {
       "title": "Unsere Fähigkeiten",
       "subtitle": "Komplettes Design und Herstellung für Premium-Marken",
-      "sticker": "Sticker-Plotterei",
-      "3d": "3D-Druck",
       "design": "Design-Dienstleistungen",
-      "customization": "Maßgeschneiderte Fertigung"
+      "3d": "3D-Druck",
+      "customization": "Maßgeschneiderte Fertigung",
+      "sticker": "Sticker-Plotterei",
+      "customAcrylic": "Maßgeschneiderte Acryl-Cutting, -Gravierung und -Montage"
+    },
+    "whyAkari": {
+      "title": "Warum AKARI",
+      "subtitle": "Mit Liebe handgefertigt. Entwickelt, um Ihre Erinnerungen für immer zu bewahren.",
+      "handmade_title": "Handgemacht mit Sorgfalt",
+      "handmade_desc": "Jedes Stück wird liebevoll in unserem Berliner Studio von Hand gefertigt",
+      "materials_title": "Premium Materialien",
+      "materials_desc": "Wir verwenden nur die feinsten Materialien für zeitlose Schöpfen",
+      "story_title": "Für Ihre Geschichte",
+      "story_desc": "Jedes Stück erzählt eine Geschichte – wir schaffen bedeutungsvolle Andenken",
+      "germany_title": "Made in Germany",
+      "germany_desc": "Proudly crafted in Germany with precision and the highest quality standards",
+      "item5_title": "Durchdachte Geschenke",
+      "item5_desc": "Bedeutungsvolle Geschenke, die Emotionen tragen und bleibende Erinnerungen schaffen",
+      "item6_title": "Für die Ewigkeit gemacht",
+      "item6_desc": "Aus hochwertigen Materialien und Handwerkskunst, um die Zeit zu überdauern"
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "subtitle": "Von der Idee zum geschätzten Andenken in vier einfachen Schritten",
+      "step1_title": "Ihre Idee teilen",
+      "step1_desc": "Erzählen Sie uns von Ihrer Vision, besonderen Erinnerungen oder was Sie bewahren möchten",
+      "step2_title": "Designtermin",
+      "step2_desc": "Wir besprechen Optionen, Materialien und erstellen einen maßgeschneiderten Entwurf",
+      "step3_title": "Handgemachte Produktion",
+      "step3_desc": "Ihr Stück wird liebevoll in unserem Studio gefertigt",
+      "step4_title": "Mit Sorgfalt geliefert",
+      "step4_desc": "Wir verpacken Ihr Andenken schön und liefern es zum Schätzen"
+    },
+    "process": {
+      "title": "Unser Prozess",
+      "subtitle": "Von Ihrer Idee zu einem handgefertigten Andenken.",
+      "step1_title": "Wählen Sie Ihre Bestellung",
+      "step1_desc": "Durchstöbern Sie unsere Kollektionen, personalisieren Sie ein vorhandenes Design, bewahren Sie bedeutungsvolle Blumen oder Andenken auf oder bringen Sie uns Ihre eigene einzigartige Idee. Wenn Sie nicht finden, was Sie suchen, arbeiten wir mit Ihnen zusammen, um ein komplett benutzerdefiniertes Design von Grund auf zu erstellen.",
+      "step2_title": "Teilen Sie Ihre Vision",
+      "step2_desc": "Senden Sie uns Ihre Blumen, Fotos, Namen, Farben, bedeutungsvolle Gegenstände, Inspirationsbilder oder beschreiben Sie einfach Ihre Idee. Wir erstellen auch benutzerdefinierte Produkte für Hochzeiten, Baby-Shower, Geburtstage, Unternehmensgeschenke, Rückgabegeschenke und Großbestellungen.",
+      "step3_title": "Designt & Handgefertigt",
+      "step3_desc": "Wir entwerfen und fertigen jedes Stück sorgfältig in unserem Berliner Studio unter Verwendung premium Materialien und bewahren jedes Detail mit außergewöhnlicher Handwerkskunst und Sorgfalt.",
+      "step4_title": "Geschaffen zum Schätzen",
+      "step4_desc": "Ihr fertiges Andenken wird sorgfältig verpackt und geliefert, bereit zum Ausstellen, Verschenken und für Jahre zu schätzen"
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "Geschichten von denen, die ihre Erinnerungen mit uns bewahrt haben",
+      "quote1": "Die Bücherstützen aus meinem Hochzeitströster sind absolute Meisterwerke. Jeder Blütenblatt ist perfekt konserviert und die Handwerkskunst ist außergewöhnlich.",
+      "quote2": "AKARI verwandelte meine Großmutter-Gartenrosen in einen atemberaubenden Buchstaben 'M'. Es ist ein Schatz, den ich meinen Kindern weitergeben werde.",
+      "quote3": "Die individuellen Ohrringe aus den Geburtstagsblumen meiner Tochter sind tragbare Kunst. Viel schöner als ich sicher war!"
+    },
+    "creativeServices": {
+      "title": "Kreative Dienstleistungen",
+      "subtitle": "Zusätzliche Dienstleistungen für Ihre handgemachten Stücke"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles was Sie über unsere handgemachten Kreationen wissen müssen",
+      "q1": "Akzeptieren Sie individuelle Bestellungen? Wie funktioniert der Prozess?",
+      "q2": "Wie funktioniert die Blumenkonservierung? Wie lange hält sie?",
+      "q3": "Können Sie meinen Hochzeitströster bewahren?",
+      "q4": "Welche Materialien verwenden Sie für Ihre handgemachten Stücke?",
+      "q5": "Wie lange dauert die Produktion? Wann erhalte ich meine Bestellung?",
+      "q6": "Wie pflege ich mein handgemachtes Andenken?"
+    },
+    "contactCta": {
+      "title": "Bereit, Ihre Erinnerungen zu bewahren?",
+      "subtitle": "Lassen Sie uns gemeinsam etwas Bedeutungsvolles schaffen. Jedes Stück erzählt eine Geschichte.",
+      "button": "Individuelle Bestellung anfordern",
+      "button1": "Individuelle Bestellung anfordern",
+      "button2": "Kontaktieren Sie uns"
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "subtitle": "Erzählen Sie uns von Ihrem Projekt und wir senden Ihnen ein detaftes Angebot innerhalb von 24 Stunden.",
+      "button": "Angebot anfordern",
+      "custom_title": "Benötigen Sie eine maßgeschneiderte Lösung?",
+      "custom_subtitle": "Finden Sie nicht genau das, was Sie suchen? Wir erstellen maßgeschneiderte Produkte nach Ihren Vorgaben.",
+      "custom_button": "Individuelles Angebot",
+      "portfolio_title": "Ihr Projekt könnte das nächste sein",
+      "portfolio_subtitle": "Wir sind bereit, Ihre Vision zum Leben zu erwecken. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.",
+      "portfolio_button": "Projekt starten",
+      "about_title": "Lassen Sie uns zusammenarbeiten",
+      "about_subtitle": "Bereit, etwas Erstaunliches zu schaffen? Kontaktieren Sie unser Team, um Ihr nächstes Projekt zu besprechen.",
+      "about_button": "Kontaktieren Sie uns"
     },
     "services": {
-      "title": "Unsere Dienstleistungen",
-      "subtitle": "Komplette Design- und Fertigungslösungen",
-      "design_title": "Design-Services",
-      "design_desc": "Individuelle Designberatung und maßgeschneiderte Lösungen",
-      "sticker_title": "Sticker-Plotterei",
-      "sticker_desc": "Professionelle Sticker-Plotterei für Aufkleber und Branding",
-      "3d_title": "3D-Druck",
-      "3d_desc": "Schnelle Prototypenfertigung und Produktions-3D-Druck"
+      "title": "Creative Services",
+      "subtitle": "Complementäre kreative Dienstleistungen für persönliche Akzente und besondere Projekte",
+      "creative_title": "Digitale Fertigung & Präzision",
+      "creative_desc": "Durchdachte kreative Dienstleistungen, die unsere handgemachten Kollektionen mit persönlichen Details verschönern",
+      "sticker_title": "Sticker Plotten",
+      "sticker_desc": "Präzisionsgeschnittene Sticker für persönliche Akzente und Markenakzente",
+      "sticker_price": "Ab €10",
+      "printing_title": "Sticker Druck",
+      "printing_desc": "Schön gedruckte Sticker mit leuchtenden Farben und dauerhaftem Finish",
+      "printing_price": "Ab €15",
+      "vinyl_title": "Vinyl Aufkleber",
+      "vinyl_desc": "Handgemachte Vinyl Aufkleber für dauerhafte persönliche Ausdruckskraft",
+      "vinyl_price": "Ab €12",
+      "acrylic_title": "Acryl Schilder",
+      "acrylic_desc": "Elegante Acryl Schildering mit Sorgfalt und Präzision",
+      "acrylic_price": "Ab €35",
+      "3d_design_title": "3D Design",
+      "3d_design_desc": "Kreatives 3D Modeling für einzigartige künstlerische Visionen",
+      "3d_design_price": "€40/Stunde",
+      "3d_print_title": "3D Druck",
+      "3d_print_desc": "Durchdachter 3D Druck für Prototypen und besondere Stücke",
+      "3d_print_price": "Ab €20",
+      "collection_link": "Entdecken Sie unsere handgemachten Kollektionen"
     },
-    "products": {
-      "title": "Unsere Produkte",
-      "subtitle": "Präzisions-engineerte Lösungen für maßgeschneiderte Fertigung und bespoke Kreationen",
-      "allProducts": "Alle Produkte",
-      "stickerPlotting": "Sticker-Plotterei",
-      "3dPrinting": "3D-Druck",
-      "castProducts": "Gegossene Produkte",
-      "customGifts": "Maßgeschneiderte Geschenke"
+    "gallery": {
+      "title": "Kundengalerie",
+      "subtitle": "Ein Einblick in unsere handgemachte Welt bewahrter Erinnerungen",
+      "filterAll": "Alle",
+      "filterBookends": "Bücherstützen",
+      "filterLetters": "Buchstaben",
+      "filterBookmarks": "Lesezeichen",
+      "filterCoasters": "Untersetzer",
+      "filterJewelry": "Schmuck",
+      "filterTrays": "Tabletts"
     },
-    "portfolio": {
-      "title": "Portfolio",
-      "subtitle": "Ausgewählte Projekte und Fallstudien"
+    "instagram": {
+      "title": "Folgen Sie unserer Reise",
+      "subtitle": "Bleiben Sie mit AKARI auf Instagram verbunden",
+      "handle": "@akaridesigns"
+    },
+    "customOrders": {
+      "title": "Individuelle Bestellungen",
+      "subtitle": "Erstellen Sie ein einzigartiges Stück nach Ihren Vorstellungen",
+      "processTitle": "Der Individuelle-Bestellungsprozess",
+      "processSubtitle": "Wie wir Ihre einzigartige Idee zum Leben erwecken",
+      "timelineTitle": "Typischer Zeitplan",
+      "timelineText": "Die meisten individuellen Stücke benötigen 2-4 Wochen vom Designfreigabe bis zur Lieferung. Eilbestellungen sind möglicherweise gegen Aufpreis möglich.",
+      "pricingTitle": "Preisgestaltung",
+      "pricingText": "Jedes individuelle Stück ist einzigartig. Die Preisgestaltung beginnt bei 49 € für einfache personalisierte Geschenke und variiert je nach Größe, Materialien, Blumen und Komplexität. Wir erstellen ein detailliertes Angebot nach Ihrer Beratung.",
+      "faqTitle": "FAQ zu Individuellen Bestellungen",
+      "faq1_q": "Wie starte ich eine individuelle Bestellung?",
+      "faq1_a": "Kontaktieren Sie uns einfach über unser Kontaktformular oder per E-Mail. Erzählen Sie uns von Ihrer Vision, und wir vereinbaren eine kostenlose Designberatung.",
+      "faq2_q": "Kann ich meine eigenen Blumen verwenden?",
+      "faq2_a": "Absolut! Wir arbeiten mit Ihren konservierten oder frischen Blumen. Wir führen Sie durch den besten Weg, sie uns zur Konservierung zu senden.",
+      "faq3_q": "Was wenn ich kein bestimmtes Design im Kopf habe?",
+      "faq3_a": "Kein Problem! Unser Designteam arbeitet mit Ihnen zusammen, um etwas Schönes basierend auf Ihren Vorlieben, Farben und der Geschichte, die Sie erzählen möchten, zu schaffen.",
+      "faq4_q": "Bieten Sie Geschenkverpackung an?",
+      "faq4_a": "Ja! Jede Bestellung kommt wunderschön verpackt in unserer Luxus-Verpackung, bereit zum Verschenken.",
+      "faq5_q": "Kann ich während des Prozesses Änderungen vornehmen?",
+      "faq5_a": "Wir begrüßen Ihre Beiträge! Sie erhalten Fortschrittsfotos und können Anpassungen vor der endgültigen Fertigstellung anfordern.",
+      "faq6_q": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "faq6_a": "Wir akzeptieren Banküberweisungen, Kreditkarten und PayPal. Eine 50%-Anzahlung ist erforderlich, um mit der Arbeit zu beginnen, der Restbetrag ist vor dem Versand fällig."
     },
     "about": {
       "title": "Über AKARI",
-      "subtitle": "Premium-Design und Fertigungskompetenz",
-      "mission": "Unsere Mission",
-      "missionText": "Präzisions-engineerte maßgeschneiderte Lösungen liefern, die Erwartungen übertreffen",
+      "subtitle": "Die Geschichte hinter unseren handgefertigten Andenken",
+      "missionTitle": "Unsere Mission",
+      "missionText": "Flüchtige Momente in zeitlose Schätze zu verwandeln durch die Kunst der Harzkonservierung. Wir glauben, dass jede Blume, jede Erinnerung, jeder besondere Anlass verdient, geehrt und für immer erinnert zu werden.",
+      "visionTitle": "Unsere Vision",
+      "visionText": "Der meistvertrauenswürdige Name in Luxus-Blumenkonservierung und personalisierter Kunst zu werden, bekannt für außergewöhnliche Handwerkskunst, emotionales Storytelling und tief persönliche Kundenerlebnisse.",
+      "whyTitle": "Warum AKARI",
+      "whySubtitle": "Was unsere handgefertigten Stücke besonders macht",
+      "processTitle": "Unser Prozess",
+      "processSubtitle": "Wie wir Ihre Vision zum Leben erwecken",
+      "materialsTitle": "Von uns verwendete Materialien",
+      "materialsText": "Wir beziehen nur die feinsten Materialien: Premium-Harz, nachhaltig konservierte Blumen, umweltfreundliche Pigmente und hochwertige Hardware. Jedes Material wird aufgrund seiner Schönheit, Haltbarkeit und Fähigkeit, erbstückqualitative Stücke zu schaffen, ausgewählt.",
+      "handmadeTitle": "Warum Handgemacht wichtig ist",
+      "handmadeText": "In einer Welt der Massenproduktion wählen wir den langsameren, bedeutungsvolleren Weg. Jedes AKARI-Stück wird von Hand gefertigt, was einzigartigen Charakter, sorgfältige Aufmerksamkeit für Details und eine Verbindung zwischen Macher und Empfänger gewährleistet.",
+      "meetTheMaker": "Meet the Maker",
+      "makerSubtitle": "Crafting timeless keepsakes, one memory at a time.",
+      "makerStory": "Hi, I'm Heena, the maker behind Akari Designs. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
+      "makerStory2": "That's what inspired me to create Akari Designs. Every piece is handcrafted by me with patience, love, and attention to detail. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
+      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come. Thank you for trusting me to preserve your special moments.",
+      "feature1": "Handmade with Love",
+      "feature2": "Flower Preservation Specialist",
+      "feature3": "Personalized for Every Customer",
+      "feature4": "Handmade in Germany",
+      "makerCta": "Ready to preserve your special memories?",
+      "makerCtaBtn": "Start Your Custom Order",
+      "storyTitle": "Unsere Geschichte",
+      "storyText": "Was als Leidenschaft für Blumenkonservierung begann, ist zu einem Berliner Studio gewachsen, das sich der Schaffung bedeutungsvoller, handgefertigter Andenken widmet, die Ihre einzigartige Geschichte erzählen.",
       "values": "Unsere Werte",
       "expertise": "Unsere Expertise",
-      "team": "Unser Team"
+      "expSubtitle": "6+ Jahre Erfahrung im Design und Fertigung",
+      "team": "Unser Team",
+      "teamSubtitle": "Leidenschaftliche Kreative und erfahrene Fertiger",
+      "valuesList": {
+        "quality": "Qualität geht vor",
+        "quality_desc": "Jedes Produkt zeigt unseren Anspruch an Exzellenz",
+        "collab": "Kreative Zusammenarbeit",
+        "collab_desc": "Wir hören zu, entwickeln Ideen und gestalten gemeinsam mit Kunden",
+        "sustainable": "Nachhaltige Praktiken",
+        "sustainable_desc": "Verantwortungsvolle Fertigung und ethische Beschaffung",
+        "innovation": "Innovation",
+        "innovation_desc": "Ständiges Erkunden neuer Techniken und Technologien"
+      },
+      "teamMembers": {
+        "sarah": {
+          "name": "Sarah Müller",
+          "title": "Gründerin & Creative Director",
+          "desc": "Mit Hintergrund in Grafikdesign und Leidenschaft für Handwerk gründete Sarah AKARI, um außergewöhnliches Design zum Leben zu erwecken."
+        },
+        "marcus": {
+          "name": "Marcus Weber",
+          "title": "Technischer Leiter",
+          "desc": "Erfahrener Ingenieur mit Expertise in Laserfertigung und 3D-Druck, Marcus sorgt für höchste Standards bei jedem Projekt."
+        },
+        "felix": {
+          "name": "Felix König",
+          "title": "Produktionsmanager",
+          "desc": "Felix koordiniert alle Produktionsabläufe und sorgt für termingerechte Lieferung und konstante Qualität."
+        }
+      }
+    },
+    "products": {
+      "title": "Unsere Kollektionen",
+      "subtitle": "Handgemachte Andenken, personalisierte Geschenke und maßgeschneiderte Dekoration mit Sorgfalt gefertigt",
+      "allProducts": "Alle",
+      "flowerPreservation": "Blumenkonservierung",
+      "bookends": "Bücherstützen",
+      "letters": "Buchstaben",
+      "coasters": "Untersetzer",
+      "bookmarks": "Lesezeichen",
+      "earrings": "Ohrringe",
+      "photoFrames": "Fotorahmen",
+      "clocks": "Uhren",
+      "art": "Kunst",
+      "personalizedGifts": "Personalisierte Geschenke",
+      "homeDecor": "Wohnaccessoires",
+      "creativeServices": "Kreative Dienstleistungen",
+      "cta_title": "Benötigen Sie eine maßgeschneiderte Lösung?",
+      "cta_subtitle": "Finden Sie nicht genau das, was Sie suchen? Wir erstellen maßgeschneiderte Stücke nach Ihren Vorgaben.",
+      "cta_button": "Individuelle Bestellung anfordern",
+      "pricingNotice": "Jedes AKARI-Stück wird handgefertigt und auf Bestellung gefertigt. Der Endpreis hängt von Größe, Materialien, Personalisierung und Designkomplexität ab. Kontaktieren Sie uns für ein kostenloses individuelles Angebot."
+    },
+    "portfolio": {
+      "title": "Unser Portfolio",
+      "subtitle": "Ausgewählte Projekte und Kollaborationen",
+      "cta_title": "Ihr Projekt könnte das nächste sein",
+      "luxury": "Luxury Markenidentität",
+      "luxury_desc": "Komplettes Branding-Paket für eine Berliner Luxus-Skincare-Marke inklusive Logo-Design, Verpackung und Marketingmaterialien.",
+      "packaging": "Maßgeschneiderte Verpackungsgestaltung",
+      "packaging_desc": "Individuelle Verpackungsgestaltung und -produktion für eine Premium-Produktlinien-Einführung inklusive Unboxing-Optimierung.",
+      "signage": "Acryl-Signet-Installation",
+      "signage_desc": "LED-beleuchtetes Acryl-Schild für ein Flagship-Restaurant im Berliner Kreuzberg mit maßgeschneiderter Gestaltung und Installation.",
+      "wedding": "Hochzeits-Dekoration & Signet",
+      "wedding_desc": "Komplettes Hochzeits-Dekorationspaket mit personalisierten Schildern, Tischnummernschildern und Zeremonienhintergriffen für eine 150-Gäste-Celebration.",
+      "prototyping": "3D-Druck & Prototypen",
+      "prototyping_desc": "Schnelle Prototypenerstellung für ein Tech-Startup, iterative Modelle für Produktverbesserung und Investorenvorsprache.",
+      "corporate": "Corporate Branding-Suite",
+      "corporate_desc": "Komplettes Branding- und Wegweisersystem für ein Firmenbüro inklusive Umgebungsgrafiken."
+    },
+    "about": {
+      "title": "Über AKARI",
+      "subtitle": "Berliner Design- und Fertigungsstudio",
+      "mission": "Unsere Mission",
+      "missionText": "Bei AKARI glauben wir, dass außergewöhnliches Design und Handwerk dauerhaften Wert schaffen. Wir verpflichten uns, Visionen in greifbare Produkte zu verwandeln – durch mikroskopische Aufmerksamkeit für Details, innovative Denkweise und echte Zusammenarbeit mit unseren Kunden.",
+      "founded": "Gründung in 2018, wir haben einen Ruf als Anbieter von Premium-Maßprodukten aufgebaut, die die Erwartungen übertreffen. Unser Berliner Studio kombiniert traditionelle Handwerkskunst mit modernster Technologie.",
+      "values": "Unsere Werte",
+      "expertise": "Unsere Expertise",
+      "expSubtitle": "6+ Jahre Erfahrung im Design und Fertigung",
+      "team": "Unser Team",
+      "teamSubtitle": "Leidenschaftliche Kreative und erfahrene Fertiger",
+      "valuesList": {
+        "quality": "Qualität geht vor",
+        "quality_desc": "Jedes Produkt zeigt unseren Anspruch an Exzellenz",
+        "collab": "Kreative Zusammenarbeit",
+        "collab_desc": "Wir hören zu, entwickeln Ideen und gestalten gemeinsam mit Kunden",
+        "sustainable": "Nachhaltige Praktiken",
+        "sustainable_desc": "Verantwortungsvolle Fertigung und ethische Beschaffung",
+        "innovation": "Innovation",
+        "innovation_desc": "Ständiges Erkunden neuer Techniken und Technologien"
+      },
+      "teamMembers": {
+        "sarah": {
+          "name": "Sarah Müller",
+          "title": "Gründerin & Creative Director",
+          "desc": "Mit Hintergrund in Grafikdesign und Leidenschaft für Handwerk gründete Sarah AKARI, um außergewöhnliches Design zum Leben zu erwecken."
+        },
+        "marcus": {
+          "name": "Marcus Weber",
+          "title": "Technischer Leiter",
+          "desc": "Erfahrener Ingenieur mit Expertise in Laserfertigung und 3D-Druck, Marcus sorgt für höchste Standards bei jedem Projekt."
+        },
+        "felix": {
+          "name": "Felix König",
+          "title": "Produktionsmanager",
+          "desc": "Felix koordiniert alle Produktionsabläufe und sorgt für termingerechte Lieferung und konstante Qualität."
+        }
+      },
+      "cta": "Lassen Sie uns zusammenarbeiten",
+      "ctaSubtitle": "Bereit, etwas Erstaunliches zu schaffen? Kontaktieren Sie unser Team für Ihr nächstes Projekt."
     },
     "contact": {
       "title": "Kontaktieren Sie uns",
-      "subtitle": "Kontaktieren Sie uns für maßgeschneiderte Angebote und Anfragen",
+      "subtitle": "Kontakt für maßgeschneiderte Angebote und Anfragen",
       "name": "Ihr Name",
       "email": "E-Mail-Adresse",
       "phone": "Telefonnummer",
-      "company": "Unternehmen",
+      "company": "Unternehmen / Marke",
       "service": "Dienstleistungsinteresse",
-      "message": "Ihre Nachricht",
-      "send": "Anfrage senden",
-      "faq": "Häufig gestellte Fragen"
+      "message": "Erzählen Sie uns von Ihrem Projekt",
+      "send": "Nachricht senden",
+      "response": "Wir antworten innerhalb von 24 Stunden.",
+      "info": "Kontaktinformationen",
+      "emailLabel": "E-Mail",
+      "locationLabel": "Standort",
+      "location": "Berlin, Deutschland",
+      "quick": "Schnelle Kontaktwege",
+      "whatsappLabel": "WhatsApp",
+      "whatsappDesc": "Schnelle Antwort",
+      "phoneLabel": "Telefon",
+      "phoneDesc": "Geschäftszeiten: Mo-Fr 9-17 Uhr",
+      "faq": "Häufig gestellte Fragen",
+      "faq1_q": "Wie ist die typische Lieferzeit?",
+      "faq1_a": "Die Lieferzeit hängt von der Projekt komplexität ab. Kleinere Bestellungen benötigen typischerweise 3-5 Tage, größere Projekte 2-4 Wochen. Wir geben Ihnen die genaue Zeitplanung mit Ihrem Angebot.",
+      "faq2_q": "Akzeptieren Sie individuelle Bestellungen?",
+      "faq2_a": "Absolut! Individuelle Bestellungen sind unsere Spezialität. Wir können prinzipiell alles herstellen, was Sie sich vorstellen können. Senden Sie uns Ihre Anforderungen für ein maßgeschneidetes Angebot.",
+      "faq3_q": "Wie hoch ist die Mindestabnahmemenge?",
+      "faq3_a": "Die meisten Produkte starten bei 1 Stück für individuelle Aufträge. Für Großabnahmen variieren die Mindestmengen. Kontaktieren Sie uns mit Ihren Bedürfnissen.",
+      "faq4_q": "Bieten Sie Design-Dienstleistungen an?",
+      "faq4_a": "Ja! Wir bieten vollständige Design-Dienstleistungen vom Konzept zum endgültigen Artwork. Unsere Designer können alles von Grund auf erstellen oder Ihre bestehenden Designs verbessern.",
+      "faq5_q": "Kann ich Muster vor der Bestellung ansehen?",
+      "faq5_a": "Wir bieten Prototypen und Muster für die meisten Dienstleistungen an. Perfekt, um Ihre Designs vor der Vollproduktion zu validieren.",
+      "faq6_q": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "faq6_a": "Wir akzeptieren Banküberweisungen, Kreditkarten und PayPal. Zahlungsbedingungen für bestehende Kunden verfügbar."
     },
-    "footer": "Berliner Design- und Fertigungsstudio. Premium-Produkte nach Maß und kleinchargige Produktion."
+    "footer": {
+      "about": "Über AKARI",
+      "aboutText": "Luxus-Handgemachte Blumenkonservierung, handgefertigte Kunst, personalisierte Geschenke und maßgeschneiderte Dekoration mit Sorgfalt in Deutschland gefertigt.",
+      "links": "Schnelle Links",
+      "collections": "Kollektionen",
+      "contact": "Kontakt",
+      "social": "Folgen Sie uns",
+      "email": "E-Mail",
+      "copyright": "© 2024 AKARI Designs. Alle Rechte vorbehalten.",
+      "imprint": "Impressum",
+      "privacy": "Datenschutz"
+    },
+    "imprint": {
+      "title": "Impressum",
+      "subtitle": "Rechtliche Informationen und Firmendaten",
+      "operator": "Betreiber-Informationen",
+      "company": "Firmendetails",
+      "contact": "Kontaktinformationen",
+      "registration": "Firmenregistrierung",
+      "responsible": "Verantwortlich für den Inhalt",
+      "liability": "Haftung und Haftungsausschluss",
+      "liabilityText": "Die Website und ihr Inhalt werden ohne jegliche Gewährleistung bereitgestellt. AKARI Designs haftet nicht für Schäden, die aus der Nutzung oder Nichtnutzung der Website entstehen, einschließlich direkter, indirekter, zufälliger oder Folgeschäden.",
+      "links": "Externe Links",
+      "linksText": "AKARI Designs ist nicht verantwortlich für den Inhalt externer Websites, die von unserer Seite aus verlinkt werden. Deren Inhalte liegen in der Verantwortung der jeweiligen Betreiber.",
+      "copyright": "Urheberrecht",
+      "copyrightText": "Alle Inhalte dieser Website, einschließlich Texte, Bilder, Grafiken, Logos und Designs, sind Eigentum von AKARI Designs oder deren Content-Provider. Jede Verwendung bedarf unserer schriftlichen Genehmigung.",
+      "dispute": "Strebeinigung",
+      "disputeText": "Für alle Angelegenheiten dieser Website gelten deutsches Recht. Die Gerichte Berlins, Deutschland, haben ausschließliche Gerichtsbarkeit.",
+      "data": "Datenschutz",
+      "dataText": "Informationen zum Umgang mit Ihren persönlichen Daten finden Sie in unserer Datenschutzrichtlinie.",
+      "changes": "Änderungen am Impressum",
+      "changesText": "AKARI Designs behält sich das Recht vor, dieses Impressum jederzeit ohne Hinweis zu ändern. Durch die fortgesetzte Nutzung nach Änderungen akzeptieren Sie die neue Fassung.",
+      "updated": "Letzte Aktualisierung: 2024 | Bitte prüfen Sie regelmäßig nach Aktualisierungen"
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "subtitle": "Wie wir Ihre persönlichen Daten schützen",
+      "intro": "AKARI Designs respektiert Ihre Privatsphäre und verpflichtet sich zum Schutz Ihrer persönlichen Daten. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen erfassen, nutzen und schützen.",
+      "section1": "1. Einführung",
+      "section2": "2. Informationen, die wir erfassen",
+      "section2_text": "Wir erfassen folgende Informationen:",
+      "section3": "3. Wie wir Ihre Informationen verwenden",
+      "section3_text": "Wir nutzen die erfassten Informationen für:",
+      "section4": "4. Datenschutz und Sicherheit",
+      "section5": "5. Weitergabe Ihrer Informationen",
+      "section6": "6. Cookies und Tracking",
+      "section7": "7. Ihre Rechte",
+      "section7_text": "Gemäß den geltenden Gesetzen haben Sie das Recht:",
+      "section8": "8. Kontaktformulare",
+      "section9": "9. Links zu anderen Websites",
+      "section10": "10. Datenschutz für Kinder",
+      "section11": "11. Änderungen dieser Richtlinie",
+      "section12": "12. Kontaktieren Sie uns",
+      "section12_text": "Wenn Sie Fragen zu unseren Datenschutzpraktiken haben oder Ihre Rechte geltend machen möchten:",
+      "response": "Wir antworten innerhalb von 30 Tagen.",
+      "gdpr": "Letzte Aktualisierung: 2024 | Diese Richtlinie entspricht der DSGVO und deutschem Datenschutzrecht"
+    },
+    "formPlaceholders": {
+      "selectService": "Wählen Sie eine Dienstleistung",
+      "other": "Andere"
+    }
   }
 }
-

@@ -1,11 +1,11 @@
 ---
 title: "Custom Gifts"
-category: "custom-gifts"
-description: "Personalized gifts and mementos for any occasion"
-price: "From €20"
-priceType: "fixed"
-featured: false
-ctaText: "Inquire"
+category: "personalized-gifts"
+description: "Personalized gifts and mementos for birthdays, anniversaries, and every occasion"
+price: "Starting from €49"
+priceType: "starting"
+featured: true
+ctaText: "Customize Yours"
 icon: "🎁"
 ---
-Personalized gifts and mementos for any occasion
+Personalized gifts and mementos for birthdays, anniversaries, and every occasion

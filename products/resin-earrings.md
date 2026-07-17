@@ -1,11 +1,11 @@
 ---
-title: "Resin Earrings"
-category: "resin-products"
-description: "Custom resin earrings with bespoke designs"
-price: "From €18"
-priceType: "fixed"
+title: "Earrings"
+category: "art"
+description: "Bespoke earrings crafted with care, lightweight and uniquely designed"
+price: "Starting from €35"
+priceType: "starting"
 featured: false
-ctaText: "Inquire"
-icon: "🔮"
+ctaText: "Customize Yours"
+icon: "💎"
 ---
-Custom resin earrings with bespoke designs
+Bespoke earrings crafted with care, lightweight and uniquely designed
