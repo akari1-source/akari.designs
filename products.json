@@ -11,11 +11,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/photo_frame.jpeg",
+    "image": "/assets/images/photo_frame.jpeg",
     "gallery": [
-      "assets/images/photo_frame.jpeg",
-      "assets/images/bookend.png",
-      "assets/images/letter R.jpeg"
+      "/assets/images/photo_frame.jpeg",
+      "/assets/images/bookend.png",
+      "/assets/images/letter R.jpeg"
     ]
   },
   {
@@ -30,11 +30,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/bookend.png",
+    "image": "/assets/images/bookend.png",
     "gallery": [
-      "assets/images/bookend.png",
-      "assets/images/tray.png",
-      "assets/images/letter.png"
+      "/assets/images/bookend.png",
+      "/assets/images/tray.png",
+      "/assets/images/letter.png"
     ]
   },
   {
@@ -49,11 +49,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/letter.png",
+    "image": "/assets/images/letter.png",
     "gallery": [
-      "assets/images/letter.png",
-      "assets/images/bookmark.jpeg",
-      "assets/images/earring.png"
+      "/assets/images/letter.png",
+      "/assets/images/bookmark.jpeg",
+      "/assets/images/earring.png"
     ]
   },
   {
@@ -68,11 +68,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/tray 3.jpeg",
+    "image": "/assets/images/tray 3.jpeg",
     "gallery": [
-      "assets/images/tray 3.jpeg",
-      "assets/images/bookend.png",
-      "assets/images/clock.png"
+      "/assets/images/tray 3.jpeg",
+      "/assets/images/bookend.png",
+      "/assets/images/clock.png"
     ]
   },
   {
@@ -87,11 +87,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/coasters.png",
+    "image": "/assets/images/coasters.png",
     "gallery": [
-      "assets/images/coasters.png",
-      "assets/images/tray 3.jpeg",
-      "assets/images/bookmark.jpeg"
+      "/assets/images/coasters.png",
+      "/assets/images/tray 3.jpeg",
+      "/assets/images/bookmark.jpeg"
     ]
   },
   {
@@ -106,11 +106,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/bookmark.jpeg",
+    "image": "/assets/images/bookmark.jpeg",
     "gallery": [
-      "assets/images/bookmark.jpeg",
-      "assets/images/letter.png",
-      "assets/images/earring.png"
+      "/assets/images/bookmark.jpeg",
+      "/assets/images/letter.png",
+      "/assets/images/earring.png"
     ]
   },
   {
@@ -125,11 +125,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/personalised-bookmark.png",
+    "image": "/assets/images/personalised-bookmark.png",
     "gallery": [
-      "assets/images/personalised-bookmark.png",
-      "assets/images/letter.png",
-      "assets/images/earring.png"
+      "/assets/images/personalised-bookmark.png",
+      "/assets/images/letter.png",
+      "/assets/images/earring.png"
     ]
   },
   {
@@ -144,11 +144,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/earring.png",
+    "image": "/assets/images/earring.png",
     "gallery": [
-      "assets/images/earring.png",
-      "assets/images/bookmark.jpeg",
-      "assets/images/letter.png"
+      "/assets/images/earring.png",
+      "/assets/images/bookmark.jpeg",
+      "/assets/images/letter.png"
     ]
   },
   {
@@ -163,11 +163,11 @@
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/clock.png",
+    "image": "/assets/images/clock.png",
     "gallery": [
-      "assets/images/clock.png",
-      "assets/images/bookend.png",
-      "assets/images/tray.png"
+      "/assets/images/clock.png",
+      "/assets/images/bookend.png",
+      "/assets/images/tray.png"
     ]
   }
 ]

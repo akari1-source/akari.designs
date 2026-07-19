@@ -337,7 +337,7 @@
   <script>
     async function loadCollections() {
       try {
-        const response = await fetch('products.json');
+        const response = await fetch('/products.json');
         const products = await response.json();
         renderCollectionGrid(products);
         initializeProductFilters();

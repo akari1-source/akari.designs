@@ -18,7 +18,7 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
 // ========================
 async function initializeLanguage() {
   try {
-    const response = await fetch('languages.json');
+    const response = await fetch('/languages.json');
     translations = await response.json();
     setLanguage(currentLanguage);
     initializeLanguageSwitcher();
@@ -152,8 +152,8 @@ function initHeroCarousel() {
           <h1>${slide.title}</h1>
           <p class="slide-subtitle">${slide.description}</p>
           <div class="btn-group">
-            <a href="products.html" class="btn btn-primary">Explore Collections</a>
-            <a href="contact.html" class="btn btn-secondary">Request a Custom Order</a>
+            <a href="/collections" class="btn btn-primary">Explore Collections</a>
+            <a href="/contact" class="btn btn-secondary">Request a Custom Order</a>
           </div>
         </div>
       </div>
@@ -937,7 +937,7 @@ function initializeEventTracking() {
   });
 
   // Bulk order section
-  const bulkOrderBtn = document.querySelector('a[href="contact.html"][class*="btn-primary"]');
+  const bulkOrderBtn = document.querySelector('a[href="/contact"][class*="btn-primary"]');
   if (bulkOrderBtn && bulkOrderBtn.textContent.includes('Request a Bulk Quote')) {
     bulkOrderBtn.addEventListener('click', function() {
       trackEvent('bulk_order_click', {
@@ -989,7 +989,7 @@ function initializeEventTracking() {
   });
 
   // Custom order buttons
-  document.querySelectorAll('a[href="contact.html"]').forEach(btn => {
+  document.querySelectorAll('a[href="/contact"]').forEach(btn => {
     if (btn.textContent && (
       btn.textContent.includes('Request Custom Order') ||
       btn.textContent.includes('Request a Custom Order') ||
