@@ -1,12 +1,12 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Redirect .html URLs to clean URLs (301 permanent redirect)
+  # Redirect old .html URLs to folder-based clean URLs (301 permanent)
   RewriteCond %{THE_REQUEST} \s/+(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)\.html[\s?] [NC]
-  RewriteRule ^ %1 [R=301,L]
+  RewriteRule ^ %1/ [R=301,L]
 
-  # Internally rewrite clean URLs to .html files
+  # Redirect clean URLs without trailing slash to with trailing slash
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)/?$ $1.html [L]
+  RewriteRule ^(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)$ $1/ [R=301,L]
 </IfModule>
