@@ -364,7 +364,7 @@ function initializeActiveNav() {
 // LIGHTBOX (PRODUCT IMAGE VIEWER)
 // ========================
 function addImageOverlays() {
-  document.querySelectorAll('.collection-image').forEach(box => {
+  document.querySelectorAll('.collection-image, .custom-card-image').forEach(box => {
     const img = box.querySelector('img');
     if (img && !img.hasAttribute('data-lightbox')) {
       img.setAttribute('data-lightbox', 'product');
@@ -684,10 +684,16 @@ function initializeFormHandling() {
   contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
+    // Spam honeypot check
+    const honeypot = document.getElementById('website_url');
+    if (honeypot && honeypot.value.trim() !== '') {
+      return; // silently ignore bot submissions
+    }
+
     const fields = {
       name: { el: document.getElementById('name'), error: document.getElementById('name-error'), required: true },
       email: { el: document.getElementById('email'), error: document.getElementById('email-error'), required: true },
-      message: { el: document.getElementById('message'), error: document.getElementById('message-error'), required: true },
+      message: { el: document.getElementById('message'), error: document.getElementById('message-error'), required: false },
       service: { el: document.getElementById('service'), error: document.getElementById('service-error'), required: true }
     };
 
@@ -736,31 +742,53 @@ function initializeFormHandling() {
       return;
     }
 
-    // Prepare email
-    const name = fields.name.el.value.trim();
-    const email = fields.email.el.value.trim();
-    const message = fields.message.el.value.trim();
-    const service = fields.service.el.value;
-    const phone = document.getElementById('phone') ? document.getElementById('phone').value.trim() : '';
-    const company = document.getElementById('company') ? document.getElementById('company').value.trim() : '';
+    // Submit to Formspree via fetch (no page reload)
+    const endpoint = contactForm.getAttribute('action');
+    const submitBtn = document.getElementById('contact-submit');
+    const successEl = document.getElementById('form-success');
+    const errorEl = document.getElementById('form-error');
 
-    const subject = `New Inquiry from ${name} - ${service || 'General'}`;
-    const body = `
-Name: ${name}
-Email: ${email}
-Phone: ${phone || 'Not provided'}
-Company: ${company || 'Not provided'}
-Service Interest: ${service || 'Not specified'}
+    if (successEl) successEl.style.display = 'none';
+    if (errorEl) errorEl.style.display = 'none';
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = '0.7';
+      submitBtn.textContent = 'Sending…';
+    }
 
-Message:
-${message}
+    const formData = new FormData(contactForm);
+    formData.set('_replyto', fields.email.el.value.trim());
+    formData.set('_subject', `New Inquiry from ${fields.name.el.value.trim()} - ${fields.service.el.value || 'General'}`);
 
----
-Sent from AKARI Designs Contact Form
-    `.trim();
-
-    const mailtoLink = `mailto:sales@akari1.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+    fetch(endpoint, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if (response.ok) {
+        contactForm.reset();
+        // Clear any lingering validation error UI for a clean slate
+        Object.values(fields).forEach(f => {
+          if (f.error) { f.error.textContent = ''; f.error.style.display = 'none'; }
+          if (f.el) f.el.classList.remove('input-error');
+        });
+        if (successEl) successEl.style.display = 'block';
+        if (successEl) successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        throw new Error('Formspree error');
+      }
+    })
+    .catch(() => {
+      if (errorEl) errorEl.style.display = 'block';
+    })
+    .finally(() => {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '';
+        submitBtn.textContent = 'Send Message';
+      }
+    });
   });
 }
 
@@ -847,15 +875,6 @@ function initScrollToTop() {
       scrollBtn.style.display = 'none';
     }
   }, { passive: true });
-}
-
-// ========================
-// WHATSAPP
-// ========================
-function openWhatsApp() {
-  const phoneNumber = '49';
-  const message = encodeURIComponent('Hi AKARI, I would like to inquire about your services.');
-  window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 }
 
 // ========================

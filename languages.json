@@ -254,15 +254,16 @@
       "title": "About AKARI",
       "subtitle": "The story behind our handcrafted keepsakes",
       "missionTitle": "Our Mission",
-      "missionText": "To transform fleeting moments into timeless treasures through the art of luxury preservation. We believe every flower, every memory, every special occasion deserves to be honored and remembered forever.",
+      "missionText": "Every piece is individually handcrafted by Heena in Berlin—never mass-produced, never outsourced. We create personalized gifts, resin art, bookmarks, trays, coasters, frames, and custom keepsakes that transform fleeting moments into something lasting.",
+      "missionText2": "From preserved flowers to custom décor, every creation is made slowly and deliberately, with premium materials and genuine care.",
       "values": "Our Values",
       "expertise": "Our Expertise",
-      "expSubtitle": "6+ years of experience in handcrafted flower preservation",
+      "expSubtitle": "6+ years of experience in handcrafted keepsakes",
       "meetTheMaker": "Meet the Maker",
       "makerSubtitle": "Crafting timeless keepsakes, one memory at a time.",
-      "makerStory": "Hi, I'm Heena, the maker behind Akari Designs. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
-      "makerStory2": "That's what inspired me to create Akari Designs. Every piece is handcrafted by me with patience, love, and attention to detail. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
-      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come. Thank you for trusting me to preserve your special moments.",
+      "makerStory": "Hi, I'm Heena. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
+      "makerStory2": "That's what inspired me to create AKARI Designs. Every piece is individually handcrafted by me in my Berlin studio—never mass-produced, never outsourced. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
+      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come.",
       "feature1": "Handmade with Love",
       "feature2": "Flower Preservation Specialist",
       "feature3": "Personalized for Every Customer",
@@ -277,15 +278,15 @@
       "expSubtitle": "6+ years of experience in design and manufacturing",
       "team": "Meet the Team",
       "teamSubtitle": "Passionate creatives and skilled manufacturers",
-"valuesList": {
-         "quality": "Quality First",
-         "quality_desc": "Every product reflects our commitment to excellence",
-         "collab": "Creative Collaboration",
-         "collab_desc": "We listen, ideate, and create together with clients",
-         "sustainable": "Sustainable Practice",
-         "sustainable_desc": "Responsible manufacturing and ethical sourcing",
-         "innovation": "Innovation",
-         "innovation_desc": "Constantly exploring new techniques and technologies"
+      "valuesList": {
+         "quality": "Individual Craftsmanship",
+         "quality_desc": "Every piece is made by hand in our Berlin studio with meticulous attention to detail",
+         "collab": "Meaningful Design",
+         "collab_desc": "Each creation tells your unique story through carefully preserved botanicals and personalized elements",
+         "sustainable": "Personal Connection",
+         "sustainable_desc": "We work directly with you to understand your vision, timeline, and the story behind your keepsake",
+         "innovation": "Sustainable Practice",
+         "innovation_desc": "Responsible material sourcing and ethical craftsmanship in every step"
        },
        "teamMembers": {
          "sarah": {
@@ -303,7 +304,23 @@
            "title": "Production Manager",
            "desc": "Felix coordinates all production operations, ensuring timely delivery and consistent quality across every project."
          }
-       }
+       },
+       "expertiseItems": {
+         "flower": "Flower Preservation",
+         "gifts": "Personalized Gifts",
+         "wedding": "Wedding Keepsakes",
+         "memorial": "Memorial Keepsakes",
+         "corporate": "Corporate Gifts",
+         "resin": "Resin Art & Décor"
+       },
+       "behindScenesTitle": "Behind the Scenes",
+       "behindScenes": "In our light-filled Berlin workshop, the process is entirely hands-on. Flowers arrive fresh and full of meaning, then are carefully dried, arranged, and set into crystal-clear material—each step performed slowly and deliberately, by hand.",
+       "behindScenes2": "Every piece passes through Heena's hands from start to finish—from the first sketch to the final polish. No assembly lines, no shortcuts—just one maker, devoted to your memory.",
+       "studioTitle": "Our Berlin Studio",
+       "studioSubtitle": "A creative space where memories are carefully kept",
+       "studioText": "Tucked away in Berlin, our studio is a calm, sunlit workspace filled with dried botanicals, sketches, and the quiet focus of slow craft. It's where your flowers are welcomed, honored, and transformed into something that lasts.",
+       "studioText2": "We take great care in every step—from how your flowers are received to how your finished keepsake is wrapped and sent. Craftsmanship here is personal, patient, and made to be treasured.",
+       "studioCta": "Start Your Custom Order"
      },
      "contact": {
       "title": "Contact Us",
@@ -345,7 +362,6 @@
       "links": "Quick Links",
       "collections": "Collections",
       "contact": "Contact",
-      "social": "Follow Us",
       "email": "Email",
       "copyright": "© 2026 AKARI Designs. All rights reserved.",
       "imprint": "Imprint",
@@ -630,22 +646,16 @@
       "title": "Über AKARI",
       "subtitle": "Die Geschichte hinter unseren handgefertigten Andenken",
       "missionTitle": "Unsere Mission",
-      "missionText": "Flüchtige Momente in zeitlose Schätze zu verwandeln durch die Kunst der Harzkonservierung. Wir glauben, dass jede Blume, jede Erinnerung, jeder besondere Anlass verdient, geehrt und für immer erinnert zu werden.",
-      "visionTitle": "Unsere Vision",
-      "visionText": "Der meistvertrauenswürdige Name in Luxus-Blumenkonservierung und personalisierter Kunst zu werden, bekannt für außergewöhnliche Handwerkskunst, emotionales Storytelling und tief persönliche Kundenerlebnisse.",
-      "whyTitle": "Warum AKARI",
-      "whySubtitle": "Was unsere handgefertigten Stücke besonders macht",
-      "processTitle": "Unser Prozess",
-      "processSubtitle": "Wie wir Ihre Vision zum Leben erwecken",
-      "materialsTitle": "Von uns verwendete Materialien",
-      "materialsText": "Wir beziehen nur die feinsten Materialien: Premium-Harz, nachhaltig konservierte Blumen, umweltfreundliche Pigmente und hochwertige Hardware. Jedes Material wird aufgrund seiner Schönheit, Haltbarkeit und Fähigkeit, erbstückqualitative Stücke zu schaffen, ausgewählt.",
-      "handmadeTitle": "Warum Handgemacht wichtig ist",
-      "handmadeText": "In einer Welt der Massenproduktion wählen wir den langsameren, bedeutungsvolleren Weg. Jedes AKARI-Stück wird von Hand gefertigt, was einzigartigen Charakter, sorgfältige Aufmerksamkeit für Details und eine Verbindung zwischen Macher und Empfänger gewährleistet.",
+      "missionText": "Jedes Stück wird individuell von Heena in Berlin handgefertigt – nie massenproduziert, nie ausgelagert. Wir erschaffen personalisierte Geschenke, Resin-Kunst, Lesezeichen, Tabletts, Untersetzer, Bilderrahmen und individuelle Andenken, die flüchtige Momente in etwas Bleibendes verwandeln.",
+      "missionText2": "Von konservierten Blumen bis zu maßgeschneiderter Dekoration wird jede Kreation langsam und bewusst gefertigt, mit Premium-Materialien und echter Sorgfalt.",
+      "values": "Unsere Werte",
+      "expertise": "Unsere Expertise",
+      "expSubtitle": "6+ Jahre Erfahrung in handgefertigten Andenken",
       "meetTheMaker": "Meet the Maker",
       "makerSubtitle": "Crafting timeless keepsakes, one memory at a time.",
-      "makerStory": "Hi, I'm Heena, the maker behind Akari Designs. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
-      "makerStory2": "That's what inspired me to create Akari Designs. Every piece is handcrafted by me with patience, love, and attention to detail. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
-      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come. Thank you for trusting me to preserve your special moments.",
+      "makerStory": "Hi, I'm Heena. As a mother, I've come to understand just how precious life's little moments are. A wedding bouquet, a baby's first flowers, a meaningful gift from someone special—these memories deserve to be cherished long after the moment has passed.",
+      "makerStory2": "That's what inspired me to create AKARI Designs. Every piece is individually handcrafted by me in my Berlin studio—never mass-produced, never outsourced. Whether I'm preserving flowers, creating personalized letters, or designing custom keepsakes, every creation is made as if it were for my own family.",
+      "makerStory3": "My goal is simple: to transform meaningful memories into timeless keepsakes that can be treasured for years to come.",
       "feature1": "Handmade with Love",
       "feature2": "Flower Preservation Specialist",
       "feature3": "Personalized for Every Customer",
@@ -660,14 +670,14 @@
       "team": "Unser Team",
       "teamSubtitle": "Leidenschaftliche Kreative und erfahrene Fertiger",
       "valuesList": {
-        "quality": "Qualität geht vor",
-        "quality_desc": "Jedes Produkt zeigt unseren Anspruch an Exzellenz",
-        "collab": "Kreative Zusammenarbeit",
-        "collab_desc": "Wir hören zu, entwickeln Ideen und gestalten gemeinsam mit Kunden",
-        "sustainable": "Nachhaltige Praktiken",
-        "sustainable_desc": "Verantwortungsvolle Fertigung und ethische Beschaffung",
-        "innovation": "Innovation",
-        "innovation_desc": "Ständiges Erkunden neuer Techniken und Technologien"
+        "quality": "Individuelle Handwerkskunst",
+        "quality_desc": "Jedes Stück wird in unserem Berliner Studio von Hand gefertigt, mit akribischer Aufmerksamkeit für Details",
+        "collab": "Bedeutungsvolles Design",
+        "collab_desc": "Jede Kreation erzählt Ihre einzigartige Geschichte durch sorgfältig konservierte Botanik und personalisierte Elemente",
+        "sustainable": "Persönliche Verbindung",
+        "sustainable_desc": "Wir arbeiten direkt mit Ihnen zusammen, um Ihre Vision, Ihren Zeitplan und die Geschichte hinter Ihrem Andenken zu verstehen",
+        "innovation": "Nachhaltige Praxis",
+        "innovation_desc": "Verantwortungsvolle Materialbeschaffung und ethische Handwerkskunst in jedem Schritt"
       },
       "teamMembers": {
         "sarah": {
@@ -685,7 +695,23 @@
           "title": "Produktionsmanager",
           "desc": "Felix koordiniert alle Produktionsabläufe und sorgt für termingerechte Lieferung und konstante Qualität."
         }
-      }
+      },
+      "expertiseItems": {
+        "flower": "Blumenkonservierung",
+        "gifts": "Personalisierte Geschenke",
+        "wedding": "Hochzeitsandenken",
+        "memorial": "Gedenkandenken",
+        "corporate": "Firmengeschenke",
+        "resin": "Resin-Kunst & Dekoration"
+      },
+      "behindScenesTitle": "Hinter die Kulissen",
+      "behindScenes": "In unserem lichtdurchfluteten Berliner Workshop ist der Prozess vollständig hands-on. Blumen kommen frisch und voller Bedeutung an, werden dann sorgfältig getrocknet, arrangiert und in kristallklares Material gesetzt – jeder Schritt langsam und bewusst, von Hand.",
+      "behindScenes2": "Jedes Stück durchläuft Heenas Hände von Anfang bis Ende – von der ersten Skizze bis zum letzten Schliff. Keine Fließbänder, keine Abkürzungen – nur eine Macherin, die sich Ihrem Andenken widmet.",
+      "studioTitle": "Unser Berliner Studio",
+      "studioSubtitle": "Ein kreativer Raum, in dem Erinnerungen sorgfältig aufbewahrt werden",
+      "studioText": "Versteckt in Berlin ist unser Studio ein ruhiger, sonnendurchfluteter Arbeitsplatz, gefüllt mit getrockneten Botaniken, Skizzen und der stillen Konzentration des langsamen Handwerks. Hier werden Ihre Blumen empfangen, geehrt und in etwas verwandelt, das bleibt.",
+      "studioText2": "Wir nehmen uns große Sorgfalt in jedem Schritt – von der Annahme Ihrer Blumen bis zum Verpacken und Versenden Ihres fertigen Andenkens. Handwerkskunst hier ist persönlich, geduldig und dazu gemacht, geschätzt zu werden.",
+      "studioCta": "Individuelle Bestellung starten"
     },
     "products": {
       "title": "Unsere Kollektionen",
@@ -724,47 +750,6 @@
       "prototyping_desc": "Schnelle Prototypenerstellung für ein Tech-Startup, iterative Modelle für Produktverbesserung und Investorenvorsprache.",
       "corporate": "Corporate Branding-Suite",
       "corporate_desc": "Komplettes Branding- und Wegweisersystem für ein Firmenbüro inklusive Umgebungsgrafiken."
-    },
-    "about": {
-      "title": "Über AKARI",
-      "subtitle": "Berliner Design- und Fertigungsstudio",
-      "mission": "Unsere Mission",
-      "missionText": "Bei AKARI glauben wir, dass außergewöhnliches Design und Handwerk dauerhaften Wert schaffen. Wir verpflichten uns, Visionen in greifbare Produkte zu verwandeln – durch mikroskopische Aufmerksamkeit für Details, innovative Denkweise und echte Zusammenarbeit mit unseren Kunden.",
-      "founded": "Gründung in 2018, wir haben einen Ruf als Anbieter von Premium-Maßprodukten aufgebaut, die die Erwartungen übertreffen. Unser Berliner Studio kombiniert traditionelle Handwerkskunst mit modernster Technologie.",
-      "values": "Unsere Werte",
-      "expertise": "Unsere Expertise",
-      "expSubtitle": "6+ Jahre Erfahrung im Design und Fertigung",
-      "team": "Unser Team",
-      "teamSubtitle": "Leidenschaftliche Kreative und erfahrene Fertiger",
-      "valuesList": {
-        "quality": "Qualität geht vor",
-        "quality_desc": "Jedes Produkt zeigt unseren Anspruch an Exzellenz",
-        "collab": "Kreative Zusammenarbeit",
-        "collab_desc": "Wir hören zu, entwickeln Ideen und gestalten gemeinsam mit Kunden",
-        "sustainable": "Nachhaltige Praktiken",
-        "sustainable_desc": "Verantwortungsvolle Fertigung und ethische Beschaffung",
-        "innovation": "Innovation",
-        "innovation_desc": "Ständiges Erkunden neuer Techniken und Technologien"
-      },
-      "teamMembers": {
-        "sarah": {
-          "name": "Sarah Müller",
-          "title": "Gründerin & Creative Director",
-          "desc": "Mit Hintergrund in Grafikdesign und Leidenschaft für Handwerk gründete Sarah AKARI, um außergewöhnliches Design zum Leben zu erwecken."
-        },
-        "marcus": {
-          "name": "Marcus Weber",
-          "title": "Technischer Leiter",
-          "desc": "Erfahrener Ingenieur mit Expertise in Laserfertigung und 3D-Druck, Marcus sorgt für höchste Standards bei jedem Projekt."
-        },
-        "felix": {
-          "name": "Felix König",
-          "title": "Produktionsmanager",
-          "desc": "Felix koordiniert alle Produktionsabläufe und sorgt für termingerechte Lieferung und konstante Qualität."
-        }
-      },
-      "cta": "Lassen Sie uns zusammenarbeiten",
-      "ctaSubtitle": "Bereit, etwas Erstaunliches zu schaffen? Kontaktieren Sie unser Team für Ihr nächstes Projekt."
     },
     "contact": {
       "title": "Kontaktieren Sie uns",
@@ -806,7 +791,6 @@
       "links": "Schnelle Links",
       "collections": "Kollektionen",
       "contact": "Kontakt",
-      "social": "Folgen Sie uns",
       "email": "E-Mail",
       "copyright": "© 2026 AKARI Designs. Alle Rechte vorbehalten.",
       "imprint": "Impressum",
