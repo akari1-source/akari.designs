@@ -328,6 +328,167 @@ function initializeNavigation() {
 }
 
 // ========================
+// DYNAMIC COPYRIGHT YEAR
+// ========================
+function initializeCopyrightYear() {
+  const year = new Date().getFullYear();
+  document.querySelectorAll('.footer-bottom p, .footer-section p').forEach(p => {
+    if (p.textContent.match(/©\s*\d{4}\s*AKARI/)) {
+      p.textContent = p.textContent.replace(/©\s*\d{4}\s*AKARI/, `© ${year} AKARI`);
+    }
+  });
+}
+
+// ========================
+// ACTIVE NAV HIGHLIGHT
+// ========================
+function initializeActiveNav() {
+  const navMenu = document.querySelector('.nav-menu');
+  if (!navMenu) return;
+
+  const path = window.location.pathname.split('/').pop() || 'index.html';
+  const key = path === '' || path === 'index.html' ? 'index' : path.replace('.html', '');
+
+  navMenu.querySelectorAll('a').forEach(link => {
+    const href = (link.getAttribute('href') || '').split('#')[0].split('/').pop();
+    const linkKey = href === '' || href === 'index.html' ? 'index' : href.replace('.html', '');
+
+    if (linkKey === key) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+}
+
+// ========================
+// LIGHTBOX (PRODUCT IMAGE VIEWER)
+// ========================
+function addImageOverlays() {
+  document.querySelectorAll('.collection-image').forEach(box => {
+    const img = box.querySelector('img');
+    if (img && !img.hasAttribute('data-lightbox')) {
+      img.setAttribute('data-lightbox', 'product');
+    }
+    if (!box.querySelector('.view-overlay')) {
+      const overlay = document.createElement('span');
+      overlay.className = 'view-overlay';
+      overlay.innerHTML = '🔍 View Full Size';
+      overlay.setAttribute('aria-hidden', 'true');
+      box.appendChild(overlay);
+    }
+  });
+}
+
+function initializeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const figure = document.getElementById('lightboxFigure');
+  if (!lightbox || !lightboxImg) return;
+
+  addImageOverlays();
+
+  let activeTrigger = null;
+
+  const resetZoom = () => { lightboxImg.style.transform = 'scale(1)'; };
+
+  const open = (src, alt) => {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '';
+    resetZoom();
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const close = () => {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    resetZoom();
+    lightboxImg.src = '';
+    activeTrigger = null;
+  };
+
+  // Open when a product image (or its overlay) is clicked/tapped
+  document.addEventListener('click', (e) => {
+    const trigger = e.target.closest('[data-lightbox]');
+    if (!trigger) return;
+    e.preventDefault();
+    activeTrigger = trigger;
+    const img = trigger.tagName === 'IMG' ? trigger : trigger.querySelector('img');
+    if (!img) return;
+    open(img.currentSrc || img.src, img.alt);
+  });
+
+  if (lightboxClose) lightboxClose.addEventListener('click', close);
+
+  // Click outside the image closes
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox || e.target === figure || e.target === lightboxImg) {
+      // single tap on image: if zoomed, reset; otherwise close
+      if (e.target === lightboxImg && lightboxImg.style.transform !== 'scale(1)') {
+        resetZoom();
+      } else if (e.target !== lightboxImg) {
+        close();
+      }
+    }
+  });
+
+  // Esc to close
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('open')) close();
+  });
+
+  // --- Zoom interactions inside the lightbox ---
+  let scale = 1;
+  let startDist = 0;
+  let lastTap = 0;
+
+  const setScale = (s) => {
+    scale = Math.min(Math.max(s, 1), 4);
+    lightboxImg.style.transform = `scale(${scale})`;
+  };
+
+  const pinchDist = (t) => Math.hypot(
+    t[0].clientX - t[1].clientX,
+    t[0].clientY - t[1].clientY
+  );
+
+  figure.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 2) {
+      startDist = pinchDist(e.touches);
+    } else if (e.touches.length === 1) {
+      const now = Date.now();
+      if (now - lastTap < 300) {
+        // double-tap toggle zoom
+        setScale(scale > 1 ? 1 : 2);
+        e.preventDefault();
+      }
+      lastTap = now;
+    }
+  }, { passive: false });
+
+  figure.addEventListener('touchmove', (e) => {
+    if (e.touches.length === 2 && startDist > 0) {
+      e.preventDefault();
+      const dist = pinchDist(e.touches);
+      setScale(scale * (dist / startDist));
+      startDist = dist;
+    }
+  }, { passive: false });
+
+  figure.addEventListener('touchend', () => { startDist = 0; });
+
+  // Desktop wheel zoom
+  figure.addEventListener('wheel', (e) => {
+    if (!lightbox.classList.contains('open')) return;
+    e.preventDefault();
+    setScale(scale + (e.deltaY < 0 ? 0.2 : -0.2));
+  }, { passive: false });
+}
+
+// ========================
 // FAQ ACCORDION
 // ========================
 function initFAQAccordion() {
@@ -598,7 +759,7 @@ ${message}
 Sent from AKARI Designs Contact Form
     `.trim();
 
-    const mailtoLink = `mailto:info@akari1.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:sales@akari1.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   });
 }
@@ -828,6 +989,75 @@ function initializeEventTracking() {
 }
 
 // ========================
+// PROCESS PANEL
+// ========================
+function initializeProcessPanel() {
+  const trigger = document.getElementById('processTrigger');
+  const panel = document.getElementById('processPanel');
+  const closeBtn = document.getElementById('processClose');
+  if (!trigger || !panel) return;
+
+  const isTouch = window.matchMedia('(hover: none), (max-width: 768px)').matches;
+  let collapseTimer = null;
+
+  const openPanel = () => {
+    if (collapseTimer) { clearTimeout(collapseTimer); collapseTimer = null; }
+    panel.classList.add('open');
+    trigger.classList.add('hidden');
+    panel.setAttribute('aria-hidden', 'false');
+    trigger.setAttribute('aria-expanded', 'true');
+  };
+
+  const closePanel = () => {
+    panel.classList.remove('open');
+    trigger.classList.remove('hidden');
+    panel.setAttribute('aria-hidden', 'true');
+    trigger.setAttribute('aria-expanded', 'false');
+  };
+
+  if (isTouch) {
+    // Mobile / touch: tap to toggle, close via ✕
+    trigger.addEventListener('click', () => {
+      if (panel.classList.contains('open')) {
+        closePanel();
+      } else {
+        openPanel();
+      }
+    });
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', closePanel);
+    }
+
+    // Close when tapping outside the panel
+    document.addEventListener('click', (e) => {
+      if (!panel.classList.contains('open')) return;
+      if (!panel.contains(e.target) && !trigger.contains(e.target)) {
+        closePanel();
+      }
+    });
+  } else {
+    // Desktop: hover to expand, collapse after a short delay on leave
+    const scheduleClose = () => {
+      if (collapseTimer) clearTimeout(collapseTimer);
+      collapseTimer = setTimeout(closePanel, 400);
+    };
+
+    trigger.addEventListener('mouseenter', openPanel);
+    trigger.addEventListener('mouseleave', scheduleClose);
+    panel.addEventListener('mouseenter', openPanel);
+    panel.addEventListener('mouseleave', scheduleClose);
+  }
+
+  // Escape to close
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && panel.classList.contains('open')) {
+      closePanel();
+    }
+  });
+}
+
+// ========================
 // INITIALIZATION
 // ========================
 document.addEventListener('DOMContentLoaded', function() {
@@ -839,6 +1069,10 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeScrollEffects();
   initFAQAccordion();
   initializeEventTracking();
+  initializeProcessPanel();
+  initializeActiveNav();
+  initializeLightbox();
+  initializeCopyrightYear();
 });
 
 // Inline error styles (injected dynamically)

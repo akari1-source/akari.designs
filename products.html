@@ -178,7 +178,7 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "info@akari1.com",
+        "email": "sales@akari1.com",
         "contactType": "customer service",
         "availableLanguage": ["English", "German"]
       },
@@ -256,6 +256,34 @@
     </div>
   </section>
 
+  <!-- SHIPPING INFO -->
+  <section style="background: var(--bg-darker); padding: 4rem 0;">
+    <div class="container">
+      <div class="section-header">
+        <h2>Shipping & Delivery</h2>
+        <p style="color: var(--text-light);">Convenient options to get your handcrafted keepsake safely to you</p>
+      </div>
+      <div class="grid grid-2" style="gap: 2rem; margin-top: 2rem;">
+        <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-light);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 0.75rem;">Free Shipping across Germany</h3>
+          <p style="color: var(--text-muted); line-height: 1.7;">Available on all orders over €75. Carefully packaged and shipped with tracking.</p>
+        </div>
+        <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-light);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 0.75rem;">Free Local Delivery in Berlin</h3>
+          <p style="color: var(--text-muted); line-height: 1.7;">Available on orders over €35. Hand-delivered within Berlin with care.</p>
+        </div>
+        <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-light);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 0.75rem;">Free Pickup</h3>
+          <p style="color: var(--text-muted); line-height: 1.7;">Collect your order from our Berlin studio by appointment at no additional cost.</p>
+        </div>
+        <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; border: 1px solid var(--border-light);">
+          <h3 style="color: var(--accent-gold); margin-bottom: 0.75rem;">Worldwide Shipping</h3>
+          <p style="color: var(--text-muted); line-height: 1.7;">International shipping is available. Costs are calculated based on destination and order size.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CUSTOM ORDERS CTA -->
   <section style="background: var(--bg-dark);">
     <div class="container text-center">
@@ -270,7 +298,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
-          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-md);"><img src="assets/images/akari_designs_logo_trans.png" alt="AKARI Designs" style="height: 40px;"></a>
+          <a href="index.html" class="logo" style="margin-bottom: var(--spacing-md);"><img src="assets/images/akari_designs_logo_trans.png" alt="AKARI Designs" style="height: 110px;"></a>
           <p style="color: var(--text-muted);" data-i18n="footer.aboutText">Luxury handcrafted flower preservation, art, personalized gifts and custom décor made with care in Germany.</p>
         </div>
         <div class="footer-section">
@@ -287,20 +315,21 @@
           <h3 data-i18n="footer.social">Follow Us</h3>
           <ul>
             <li><a href="https://www.instagram.com/akari.designs/" target="_blank">Instagram</a></li>
-            <li><a href="mailto:info@akari1.com">info@akari1.com</a></li>
+            <li><a href="mailto:sales@akari1.com">sales@akari1.com</a></li>
           </ul>
         </div>
         <div class="footer-section">
           <h3>Support</h3>
           <ul>
-            <li><a href="shipping.html">Shipping</a></li>
+            <li><a href="faq.html">FAQ</a></li>
             <li><a href="care.html">Care Instructions</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
         <div class="footer-bottom">
-          <p data-i18n="footer.copyright">&copy; 2024 AKARI Designs. All rights reserved. | <a href="sitemap.xml">Sitemap</a> | <a href="imprint.html">Imprint</a> | <a href="privacy.html">Privacy Policy</a></p>
+        <p class="footer-registered">Registered Business &bull; Berlin, Germany</p>
+          <p data-i18n="footer.copyright">&copy; 2026 AKARI Designs. All rights reserved. | <a href="sitemap.xml">Sitemap</a> | <a href="imprint.html">Imprint</a> | <a href="privacy.html">Privacy Policy</a></p>
         </div>
     </div>
   </footer>
@@ -350,9 +379,20 @@
           }
         });
       });
+
+      if (typeof addImageOverlays === 'function') addImageOverlays();
     }
 
     document.addEventListener('DOMContentLoaded', loadCollections);
   </script>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">&times;</button>
+    <figure class="lightbox-figure" id="lightboxFigure">
+      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    </figure>
+    <p class="lightbox-hint">Pinch or double-tap to zoom &middot; Esc or tap outside to close</p>
+  </div>
 </body>
 </html>

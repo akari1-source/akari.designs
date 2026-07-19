@@ -5,26 +5,7 @@
     "category": "flower-preservation",
     "parentCategory": "flower-preservation",
     "categoryLabel": "Flower Preservation",
-    "description": "Preserve your wedding bouquet, memorial flowers, or meaningful blooms in a handcrafted keepsake you'll treasure for years.",
-    "price": "From €89",
-    "priceType": "starting",
-    "featured": true,
-    "available": true,
-    "cta": "Request Quote",
-    "image": "assets/images/bookend.png",
-    "gallery": [
-      "assets/images/bookend.png",
-      "assets/images/photo_frame.jpeg",
-      "assets/images/letter.png"
-    ]
-  },
-  {
-    "id": "photo-frames",
-    "name": "Photo Frames",
-    "category": "photo-frames",
-    "parentCategory": "home-decor",
-    "categoryLabel": "Photo Frames",
-    "description": "Display your favourite memories in a handcrafted frame designed to preserve both your photograph and the story behind it.",
+    "description": "Turn bouquets, memorial flowers, or meaningful blooms into timeless keepsakes.",
     "price": "From €89",
     "priceType": "starting",
     "featured": true,
@@ -34,7 +15,7 @@
     "gallery": [
       "assets/images/photo_frame.jpeg",
       "assets/images/bookend.png",
-      "assets/images/clock.png"
+      "assets/images/letter R.jpeg"
     ]
   },
   {
@@ -43,7 +24,7 @@
     "category": "bookends",
     "parentCategory": "home-decor",
     "categoryLabel": "Bookends",
-    "description": "Elegant floral bookends that combine practical function with meaningful memories, creating a beautiful centrepiece for any bookshelf.",
+    "description": "Elegant floral bookends that hold your stories and memories.",
     "price": "From €149",
     "priceType": "starting",
     "featured": true,
@@ -62,7 +43,7 @@
     "category": "letters",
     "parentCategory": "personalized-gifts",
     "categoryLabel": "Personalized Letters",
-    "description": "Custom initials, names, or words handcrafted to celebrate the people and moments that matter most.",
+    "description": "Custom initials, names, or words handcrafted to celebrate what matters most.",
     "price": "From €49",
     "priceType": "starting",
     "featured": true,
@@ -71,7 +52,7 @@
     "image": "assets/images/letter.png",
     "gallery": [
       "assets/images/letter.png",
-      "assets/images/bookmark.png",
+      "assets/images/bookmark.jpeg",
       "assets/images/earring.png"
     ]
   },
@@ -81,15 +62,15 @@
     "category": "trays",
     "parentCategory": "home-decor",
     "categoryLabel": "Trays",
-    "description": "Personalized decorative trays designed for serving, displaying jewellery, or adding a unique touch to your home.",
-    "price": "From €59",
+    "description": "Personalized decorative trays for serving, jewellery, or display.",
+    "price": "From €22",
     "priceType": "starting",
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/tray.png",
+    "image": "assets/images/tray 3.jpeg",
     "gallery": [
-      "assets/images/tray.png",
+      "assets/images/tray 3.jpeg",
       "assets/images/bookend.png",
       "assets/images/clock.png"
     ]
@@ -100,7 +81,7 @@
     "category": "coasters",
     "parentCategory": "home-decor",
     "categoryLabel": "Coasters",
-    "description": "Protect your surfaces with handcrafted floral coasters that combine everyday practicality with elegant design.",
+    "description": "Handcrafted floral coasters that protect surfaces with elegant design.",
     "price": "From €35 per set",
     "priceType": "range",
     "featured": true,
@@ -109,25 +90,44 @@
     "image": "assets/images/coasters.png",
     "gallery": [
       "assets/images/coasters.png",
-      "assets/images/tray.png",
-      "assets/images/bookmark.png"
+      "assets/images/tray 3.jpeg",
+      "assets/images/bookmark.jpeg"
     ]
   },
   {
-    "id": "bookmarks",
-    "name": "Bookmarks",
+    "id": "bookmarks-classic",
+    "name": "Classic Bookmark",
     "category": "bookmarks",
     "parentCategory": "personalized-gifts",
-    "categoryLabel": "Bookmarks",
-    "description": "Personalized floral bookmarks made for readers who appreciate meaningful handmade gifts.",
+    "categoryLabel": "Classic Bookmark",
+    "description": "Elegant handcrafted bookmark for everyday reading.",
     "price": "From €9",
     "priceType": "starting",
     "featured": true,
     "available": true,
     "cta": "Request Quote",
-    "image": "assets/images/bookmark.png",
+    "image": "assets/images/bookmark.jpeg",
     "gallery": [
-      "assets/images/bookmark.png",
+      "assets/images/bookmark.jpeg",
+      "assets/images/letter.png",
+      "assets/images/earring.png"
+    ]
+  },
+  {
+    "id": "bookmarks-personalized",
+    "name": "Personalized Floral Bookmark",
+    "category": "bookmarks",
+    "parentCategory": "personalized-gifts",
+    "categoryLabel": "Personalized Floral Bookmark",
+    "description": "Custom bookmark featuring your name and preserved flowers.",
+    "price": "From €14",
+    "priceType": "starting",
+    "featured": true,
+    "available": true,
+    "cta": "Request Quote",
+    "image": "assets/images/personalised-bookmark.png",
+    "gallery": [
+      "assets/images/personalised-bookmark.png",
       "assets/images/letter.png",
       "assets/images/earring.png"
     ]
@@ -138,7 +138,7 @@
     "category": "earrings",
     "parentCategory": "jewelry",
     "categoryLabel": "Earrings",
-    "description": "Lightweight botanical earrings handcrafted using real preserved flowers for a unique everyday accessory.",
+    "description": "Lightweight botanical earrings with real preserved flowers.",
     "price": "From €10",
     "priceType": "starting",
     "featured": true,
@@ -147,7 +147,7 @@
     "image": "assets/images/earring.png",
     "gallery": [
       "assets/images/earring.png",
-      "assets/images/bookmark.png",
+      "assets/images/bookmark.jpeg",
       "assets/images/letter.png"
     ]
   },
@@ -157,7 +157,7 @@
     "category": "clocks",
     "parentCategory": "home-decor",
     "categoryLabel": "Clocks",
-    "description": "Decorative handcrafted clocks that preserve cherished memories while adding elegance to your home.",
+    "description": "Decorative clocks that preserve memories with elegance.",
     "price": "From €99",
     "priceType": "starting",
     "featured": true,

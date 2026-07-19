@@ -122,14 +122,14 @@
     "process": {
       "title": "Our Process",
       "subtitle": "From your idea to a handcrafted keepsake.",
-      "step1_title": "Choose Your Order",
-      "step1_desc": "Browse our collections, personalize an existing design, preserve meaningful flowers or keepsakes, or bring us your own unique idea. If you don't see what you're looking for, we'll work with you to create a completely custom design from scratch.",
-      "step2_title": "Share Your Vision",
-      "step2_desc": "Send us your flowers, photos, names, colors, meaningful items, inspiration images, or simply describe your idea. We also create custom products for weddings, baby showers, birthdays, corporate gifts, return gifts, and bulk orders.",
-      "step3_title": "Designed & Handcrafted",
-      "step3_desc": "We carefully design and handcraft every piece in our Berlin studio using premium materials, preserving every detail with exceptional craftsmanship and care.",
-      "step4_title": "Made to Treasure",
-      "step4_desc": "Your finished keepsake is carefully packaged and delivered, ready to display, gift, and cherish for years to come."
+      "step1_title": "Share Your Idea",
+      "step1_desc": "Tell us what you have in mind — flowers, photos, names, colors, or a rough sketch.",
+      "step2_title": "Design & Confirm",
+      "step2_desc": "We design your piece and share details for approval before crafting begins.",
+      "step3_title": "We Craft It",
+      "step3_desc": "Every piece is handcrafted with premium materials and close attention to detail.",
+      "step4_title": "Pack & Ship",
+      "step4_desc": "Your finished keepsake is carefully packaged and delivered to you."
     },
 "testimonials": {
       "title": "What Our Customers Say",
@@ -347,7 +347,7 @@
       "contact": "Contact",
       "social": "Follow Us",
       "email": "Email",
-      "copyright": "© 2024 AKARI Designs. All rights reserved.",
+      "copyright": "© 2026 AKARI Designs. All rights reserved.",
       "imprint": "Imprint",
       "privacy": "Privacy Policy"
     },
@@ -808,7 +808,7 @@
       "contact": "Kontakt",
       "social": "Folgen Sie uns",
       "email": "E-Mail",
-      "copyright": "© 2024 AKARI Designs. Alle Rechte vorbehalten.",
+      "copyright": "© 2026 AKARI Designs. Alle Rechte vorbehalten.",
       "imprint": "Impressum",
       "privacy": "Datenschutz"
     },
