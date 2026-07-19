@@ -92,7 +92,7 @@ heroCarouselData = [
     image: "assets/images/Letter.png",
     emoji: "🌸",
     gradient: "linear-gradient(135deg, #7B6D60, #4A4038)",
-    cta: "products.html",
+    cta: "/collections",
     ctaText: "Explore Preserved Flowers"
   },
   {
@@ -101,7 +101,7 @@ heroCarouselData = [
     image: null,
     emoji: "📚",
     gradient: "linear-gradient(135deg, #7B6D60, #4A4038)",
-    cta: "products.html",
+    cta: "/collections",
     ctaText: "Explore Bookends"
   },
   {
@@ -110,7 +110,7 @@ heroCarouselData = [
     image: "assets/images/Tray.png",
     emoji: "🔮",
     gradient: "linear-gradient(135deg, #7B6D60, #4A4038)",
-    cta: "products.html",
+    cta: "/collections",
     ctaText: "Explore Trays"
   },
   {
@@ -119,7 +119,7 @@ heroCarouselData = [
     image: "assets/images/coasters.png",
     emoji: "☕",
     gradient: "linear-gradient(135deg, #7B6D60, #4A4038)",
-    cta: "products.html",
+    cta: "/collections",
     ctaText: "Explore Coasters"
   },
   {
@@ -128,7 +128,7 @@ heroCarouselData = [
     image: null,
     emoji: "🔖",
     gradient: "linear-gradient(135deg, #7B6D60, #4A4038)",
-    cta: "products.html",
+    cta: "/collections",
     ctaText: "Explore Bookmarks"
   }
 ];
@@ -914,7 +914,7 @@ function initializeEventTracking() {
   }
 
   // Quote request buttons
-  document.querySelectorAll('a[href*="contact.html"], .btn-primary, .btn-secondary').forEach(btn => {
+  document.querySelectorAll('a[href*="/contact"], .btn-primary, .btn-secondary').forEach(btn => {
     if (btn.textContent && (
       btn.textContent.includes('Request a Quote') ||
       btn.textContent.includes('Request Custom') ||
@@ -947,7 +947,7 @@ function initializeEventTracking() {
   }
 
   // Collection clicks
-  document.querySelectorAll('.collection-card, a[href*="products.html#"]').forEach(card => {
+  document.querySelectorAll('.collection-card, a[href*="/collections#"]').forEach(card => {
     card.addEventListener('click', function() {
       const category = this.getAttribute('href') ? this.getAttribute('href').split('#')[1] : 'unknown';
       trackEvent('collection_click', {
