@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect .html URLs to clean URLs (301 permanent redirect)
+  RewriteCond %{THE_REQUEST} \s/+(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)\.html[\s?] [NC]
+  RewriteRule ^ %1 [R=301,L]
+
+  # Internally rewrite clean URLs to .html files
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)/?$ $1.html [L]
+</IfModule>
