@@ -346,12 +346,12 @@ function initializeActiveNav() {
   const navMenu = document.querySelector('.nav-menu');
   if (!navMenu) return;
 
-  const path = window.location.pathname.split('/').pop() || 'index.html';
-  const key = path === '' || path === 'index.html' ? 'index' : path.replace('.html', '');
+  const path = window.location.pathname.split('/').filter(Boolean).pop() || 'index';
+  const key = path.replace('.html', '').replace(/\/$/, '');
 
   navMenu.querySelectorAll('a').forEach(link => {
-    const href = (link.getAttribute('href') || '').split('#')[0].split('/').pop();
-    const linkKey = href === '' || href === 'index.html' ? 'index' : href.replace('.html', '');
+    const href = (link.getAttribute('href') || '').split('#')[0].split('/').filter(Boolean).pop() || 'index';
+    const linkKey = href.replace('.html', '').replace(/\/$/, '');
 
     if (linkKey === key) {
       link.classList.add('active');
