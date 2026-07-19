@@ -1769,11 +1769,21 @@ footer {
   }
 
   .process-float-close {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 1rem;
-    right: 1.25rem;
-    font-size: 2rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    font-size: 1.75rem;
+    background: rgba(0, 0, 0, 0.08);
+    border: none;
+    border-radius: 50%;
+    color: var(--text-dark);
+    cursor: pointer;
+    line-height: 1;
   }
 }
 
