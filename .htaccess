@@ -10,3 +10,5 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(about|collections|custom-orders|contact|faq|imprint|privacy|shipping|care|reviews|wedding-favors|flower-preservation|corporate-gifts|bulk-orders|404)$ $1/ [R=301,L]
 </IfModule>
+
+AddDefaultCharset UTF-8

@@ -333,8 +333,13 @@ function initializeNavigation() {
 function initializeCopyrightYear() {
   const year = new Date().getFullYear();
   document.querySelectorAll('.footer-bottom p, .footer-section p').forEach(p => {
-    if (p.textContent.match(/©\s*\d{4}\s*AKARI/)) {
-      p.textContent = p.textContent.replace(/©\s*\d{4}\s*AKARI/, `© ${year} AKARI`);
+    const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (node.textContent.match(/©\s*\d{4}\s*AKARI/)) {
+        node.textContent = node.textContent.replace(/©\s*\d{4}\s*AKARI/, `© ${year} AKARI`);
+        break;
+      }
     }
   });
 }
