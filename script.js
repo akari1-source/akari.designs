@@ -366,6 +366,78 @@ function initializeActiveNav() {
 }
 
 // ========================
+// NEW LAUNCHES
+// ========================
+function escapeHtml(value) {
+  if (!value) return '';
+  const div = document.createElement('div');
+  div.textContent = String(value);
+  return div.innerHTML;
+}
+
+function formatLaunchDate(dateStr, lang) {
+  try {
+    const date = new Date(dateStr);
+    const locale = lang === 'de' ? 'de-DE' : 'en-US';
+    return date.toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' });
+  } catch (e) {
+    return '';
+  }
+}
+
+function renderLaunchCard(launch) {
+  const image = launch.image || '';
+  const title = launch.title || 'AKARI Creation';
+  const desc = launch.description || '';
+  const date = launch.date || '';
+  const instagramUrl = launch.instagramUrl || 'https://www.instagram.com/akari.designs/';
+  const alt = launch.alt || title;
+
+  const dateHtml = date
+    ? `<span class="launch-date">${formatLaunchDate(date, currentLanguage)}</span>`
+    : '';
+
+  return `
+    <article class="launch-card">
+      <a href="${instagramUrl}" target="_blank" rel="noopener noreferrer" class="launch-image-link">
+        <div class="launch-image">
+          <img src="${image}" alt="${escapeHtml(alt)}" loading="lazy" width="600" height="400">
+          <span class="launch-badge" aria-hidden="true" data-i18n="newLaunches.newBadge">New</span>
+        </div>
+      </a>
+      <div class="launch-content">
+        <h3>${escapeHtml(title)}</h3>
+        ${desc ? `<p class="launch-desc">${escapeHtml(desc)}</p>` : ''}
+        ${dateHtml}
+        <a href="${instagramUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="newLaunches.viewOnInstagram">View on Instagram →</a>
+      </div>
+    </article>
+  `;
+}
+
+function initializeLaunches() {
+  const grid = document.getElementById('new-launches-grid');
+  const empty = document.getElementById('launches-empty');
+  if (!grid || !empty) return;
+
+  fetch('/launches.json', { cache: 'no-store' })
+    .then(response => response.ok ? response.json() : [])
+    .then(data => {
+      const items = Array.isArray(data) ? data : (data.launches || []);
+      if (!items.length) {
+        return; // empty state stays visible
+      }
+      grid.hidden = false;
+      empty.hidden = true;
+      grid.innerHTML = items.map(renderLaunchCard).join('');
+      if (typeof translatePage === 'function') translatePage();
+    })
+    .catch(() => {
+      // keep empty state visible if the data file can't be loaded
+    });
+}
+
+// ========================
 // LIGHTBOX (PRODUCT IMAGE VIEWER)
 // ========================
 function addImageOverlays() {
@@ -1095,6 +1167,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeEventTracking();
   initializeProcessPanel();
   initializeActiveNav();
+  initializeLaunches();
   initializeLightbox();
   initializeCopyrightYear();
 });

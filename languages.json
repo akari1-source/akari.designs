@@ -227,6 +227,15 @@
       "subtitle": "Stay connected with AKARI on Instagram",
       "handle": "@akaridesigns"
     },
+    "newLaunches": {
+      "title": "New Launches",
+      "subtitle": "Our latest handcrafted creations, fresh from the Berlin studio",
+      "viewOnInstagram": "View on Instagram →",
+      "newBadge": "New",
+      "emptyTitle": "New Launches Coming Soon",
+      "emptyText": "We're crafting something beautiful. Follow us on Instagram to see our latest creations as they arrive.",
+      "followBtn": "Follow on Instagram"
+    },
     "customOrders": {
       "title": "Custom Orders",
       "subtitle": "Create a one-of-a-kind piece tailored to your vision",
@@ -618,6 +627,15 @@
       "title": "Folgen Sie unserer Reise",
       "subtitle": "Bleiben Sie mit AKARI auf Instagram verbunden",
       "handle": "@akaridesigns"
+    },
+    "newLaunches": {
+      "title": "Neue Launches",
+      "subtitle": "Unsere neuesten handgefertigten Creationen, frisch aus dem Berliner Studio",
+      "viewOnInstagram": "Auf Instagram ansehen →",
+      "newBadge": "Neu",
+      "emptyTitle": "Neue Launches in Kürze",
+      "emptyText": "Wir gestalten gerade etwas Schönes. Folgen Sie uns auf Instagram, um unsere neuesten Creations zu sehen.",
+      "followBtn": "Auf Instagram folgen"
     },
     "customOrders": {
       "title": "Individuelle Bestellungen",

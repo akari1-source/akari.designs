@@ -375,14 +375,20 @@
     </ol>
   </aside>
 
-  <!-- INSTAGRAM SECTION -->
-  <section style="background: var(--bg-dark);">
+  <!-- NEW LAUNCHES -->
+  <section id="new-launches" style="background: var(--bg-dark);">
     <div class="container">
       <div class="section-header">
-        <h2 data-i18n="instagram.title">Follow Our Journey</h2>
-        <p data-i18n="instagram.subtitle">Behind the scenes, new creations, and customer stories from @akari.designs</p>
+        <h2 data-i18n="newLaunches.title">New Launches</h2>
+        <p data-i18n="newLaunches.subtitle">Our latest handcrafted creations, fresh from the Berlin studio</p>
       </div>
-      <p style="text-align: center;"><a href="https://www.instagram.com/akari.designs/" target="_blank" class="btn btn-primary">Follow on Instagram</a></p>
+      <div id="new-launches-grid" class="launches-grid" aria-label="New Launches" hidden>
+      </div>
+      <div id="launches-empty" class="launches-empty text-center">
+        <p style="font-size: 1.25rem; margin-bottom: var(--spacing-sm);" data-i18n="newLaunches.emptyTitle">New Launches Coming Soon</p>
+        <p style="color: var(--text-muted); margin: 0 auto var(--spacing-lg); max-width: 600px;" data-i18n="newLaunches.emptyText">We're crafting something beautiful. Follow us on Instagram to see our latest creations as they arrive.</p>
+        <a href="https://www.instagram.com/akari.designs/" target="_blank" class="btn btn-primary" data-i18n="newLaunches.followBtn">Follow on Instagram</a>
+      </div>
     </div>
   </section>
 
