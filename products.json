@@ -95,32 +95,13 @@
     ]
   },
   {
-    "id": "bookmarks-classic",
-    "name": "Classic Bookmark",
-    "category": "bookmarks",
-    "parentCategory": "personalized-gifts",
-    "categoryLabel": "Classic Bookmark",
-    "description": "Elegant handcrafted bookmark for everyday reading.",
-    "price": "From €9",
-    "priceType": "starting",
-    "featured": true,
-    "available": true,
-    "cta": "Request Quote",
-    "image": "/assets/images/bookmark.jpeg",
-    "gallery": [
-      "/assets/images/bookmark.jpeg",
-      "/assets/images/letter.png",
-      "/assets/images/earring.png"
-    ]
-  },
-  {
     "id": "bookmarks-personalized",
-    "name": "Personalized Floral Bookmark",
+    "name": "Personalized Bookmark",
     "category": "bookmarks",
     "parentCategory": "personalized-gifts",
-    "categoryLabel": "Personalized Floral Bookmark",
-    "description": "Custom bookmark featuring your name and preserved flowers.",
-    "price": "From €14",
+    "categoryLabel": "Personalized Bookmark",
+    "description": "Custom bookmark featuring your name or initials.",
+    "price": "From €9",
     "priceType": "starting",
     "featured": true,
     "available": true,
